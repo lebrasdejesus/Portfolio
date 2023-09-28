@@ -1,0 +1,42 @@
+@import './base.css';
+
+#app {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 3rem; */
+  box-sizing: border-box;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: #219db2;
+  transition: 0.4s;
+  cursor: pointer;
+
+}
+
+@media (hover: hover) {
+  a:hover {
+    /* background-color: hsla(189, 69%, 41%, 0.2); */
+    text-decoration: underline 2px;
+    text-underline-offset: 0.3rem;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* body {
+    display: flex;
+    place-items: top;
+    padding: 2rem;
+  } */
+
+  #app {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* padding: 2rem; */
+  }
+}
