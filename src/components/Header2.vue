@@ -1,7 +1,3 @@
-<script>
-import PictoGit from "./icons/PictoGit.vue";
-</script>
-
 <template>
   <div class="container1">
     <div class="deep-blue">
