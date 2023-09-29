@@ -18,7 +18,7 @@
   /* margin-top: 1rem; */
   display: flex;
   position: relative;
-  padding: 3rem 3rem;
+  padding: 3rem 3rem 1rem 3rem;
 }
 .details {
   /* flex: 1; */

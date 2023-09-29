@@ -46,18 +46,19 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
               <b>3W Academy</b>, au rythme de 3 semaines en entreprise et une
               semaine en cours.
             </p>
-            <div class="container-button">
-              <button>
-                <a
-                  href="../../src/assets/CV-F-CHAMBINAUD-220923_compressed.pdf"
-                  target="blank"
-                  >Télécharger mon cv</a
-                >
-              </button>
-            </div>
           </div>
         </div>
+        <div class="container-button">
+          <button>
+            <a
+              href="../../src/assets/CV-F-CHAMBINAUD-220923_compressed.pdf"
+              target="blank"
+              >Télécharger mon cv</a
+            >
+          </button>
+        </div>
       </PresentationItem>
+
       <div class="super-container-hardSkills">
         <div class="container-hardSkills-titre">
           <div class="titre-skills"><h3>Compétences techniques</h3></div>
@@ -245,7 +246,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
 }
 button {
   padding: 0.7rem 1.1rem;
@@ -260,7 +261,7 @@ button {
   color: white;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 a:hover {
@@ -333,11 +334,6 @@ li {
     padding-top: 8rem;
     margin-top: -8rem;
   }
-  .container-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 @media (min-width: 768px) {
   .espace-nav {
@@ -347,11 +343,7 @@ li {
     padding-top: 5.5rem;
     margin-top: -5.5rem;
   }
-  .container-button {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
+
   .photo-et-texte {
     display: flex;
     flex-direction: row;
@@ -404,11 +396,7 @@ li {
     padding-top: 4rem;
     margin-top: -4rem;
   }
-  .container-button {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
+
   .photo-et-texte {
     display: flex;
     flex-direction: row;
