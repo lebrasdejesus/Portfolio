@@ -27,11 +27,16 @@
   font-size: 0.9rem;
 }
 .img {
-  width: 3rem;
-  height: 2.5rem;
-  padding-right: 0.5rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-right: 0.5rem;
   display: flex;
   justify-content: center;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* border: 1px white solid; */
+  /* box-shadow: black 1px 1px 1px; */
+}
+.img img {
 }
 
 @media (min-width: 768px) {

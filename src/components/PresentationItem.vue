@@ -46,7 +46,7 @@ h3 {
 } */
 @media (min-width: 768px) {
   .item {
-    padding: 3rem 6rem;
+    padding: 3rem 6rem 1rem 6rem;
   }
 }
 @media (min-width: 1024px) {

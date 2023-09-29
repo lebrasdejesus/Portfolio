@@ -73,7 +73,9 @@ h3 {
   position: relative;
   /* width: 100%; */
   padding: 3rem;
-  background: linear-gradient(to top, white, #5bb6c6);
+  /* background: linear-gradient(to top, white, #5bb6c6); */
+  background-color: rgba(24, 151, 168, 0.15);
+
   margin: 3rem;
 }
 /* Login Card */
@@ -145,7 +147,7 @@ h3 {
 .login-card input[type="text"] {
   border: none;
   outline: none;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.7);
   padding: 1rem 1.5rem;
   padding-left: calc(1rem * 3.5);
   border-radius: 100px;
@@ -155,7 +157,7 @@ h3 {
 .login-card input[type="email"] {
   border: none;
   outline: none;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.7);
   padding: 1rem 1.5rem;
   padding-left: calc(1rem * 3.5);
   border-radius: 100px;
@@ -177,7 +179,7 @@ h3 {
   border: none;
   outline: none;
   padding: 1rem 1.5rem;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.7);
   transition: background 0.5s;
 }
 #message:focus {

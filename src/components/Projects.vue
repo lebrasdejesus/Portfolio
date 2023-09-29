@@ -59,6 +59,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           >Reproduction de la navbar et slider du site Suzuki</a
         ></template
       >
+      https://concession.suzuki.fr/la-rochelle <br />
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id elit
       tempor, bibendum sem sed, condimentum lorem. Vivamus nec iaculis augue.
       Donec eget auctor mi. Cras quis elit nec purus placerat efficitur sed nec
