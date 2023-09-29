@@ -27,9 +27,11 @@
   font-size: 0.9rem;
 }
 .img {
-  width: 3.5rem;
-  height: 3rem;
+  width: 3rem;
+  height: 2.5rem;
   padding-right: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {

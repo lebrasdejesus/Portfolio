@@ -58,67 +58,133 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           </div>
         </div>
       </PresentationItem>
-      <div class="container-hardSkills">
-        <PresentationItemSkills>
-          <template #image>
-            <img src="../assets/pictos/HTML5.svg" alt="picto Html" />
-          </template>
-          <template #texte><p>HTML 5</p></template>
-        </PresentationItemSkills>
-        <PresentationItemSkills>
-          <template #image>
-            <img src="../assets/pictos/CSS3_logo.svg" alt="picto Css" />
-          </template>
-          <template #texte><p>CSS 3</p></template>
-        </PresentationItemSkills>
-        <PresentationItemSkills>
-          <template #image>
-            <img
-              src="../assets/pictos/Unofficial_JavaScript_logo_2.svg"
-              alt="picto Js"
-            />
-          </template>
-          <template #texte><p>JavaScript</p></template>
-        </PresentationItemSkills>
-        <PresentationItemSkills>
-          <template #image>
-            <img src="../assets/pictos/Adobe_XD_CC_icon.svg" alt="picto XD" />
-          </template>
-          <template #texte><p>Adobe Xd</p></template>
-        </PresentationItemSkills>
-        <PresentationItemSkills>
-          <template #image>
-            <img
-              src="../assets/pictos/Adobe_Photoshop_CC_icon.svg"
-              alt="picto Photoshop"
-            />
-          </template>
-          <template #texte><p>Adobe Photoshop</p></template>
-        </PresentationItemSkills>
-        <PresentationItemSkills>
-          <template #image>
-            <img
-              src="../assets/pictos/Adobe_Illustrator_CC_icon.svg"
-              alt="picto Illustrator"
-            />
-          </template>
-          <template #texte><p>Adobe Illustrator</p></template>
-        </PresentationItemSkills>
-        <PresentationItemSkills>
-          <template #image>
-            <img
-              src="../assets/pictos/Adobe_InDesign_CC_logo.svg"
-              alt="picto Indesign"
-            />
-          </template>
-          <template #texte><p>Adobe Indesign</p></template>
-        </PresentationItemSkills>
-        <PresentationItemSkills>
-          <template #image>
-            <img src="../assets/pictos/Vuejs_Logo_2.svg" alt="picto Vue" />
-          </template>
-          <template #texte><p>Vue.js</p></template>
-        </PresentationItemSkills>
+      <div class="super-container-hardSkills">
+        <div class="container-hardSkills-titre">
+          <div class="titre-skills"><h3>Compétences techniques</h3></div>
+          <div class="two-containers-hard-skills">
+            <div class="container-hardSkills">
+              <PresentationItemSkills>
+                <template #image>
+                  <img src="../assets/pictos/HTML5.svg" alt="picto Html" />
+                </template>
+                <template #texte><p>HTML 5</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/CSS3_logo.svg"
+                    alt="picto Css"
+                    class="height100"
+                  />
+                </template>
+                <template #texte><p>CSS 3</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Unofficial_JavaScript_logo_2.svg"
+                    alt="picto Js"
+                  />
+                </template>
+                <template #texte><p>JavaScript</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Vuejs_Logo_2.svg"
+                    alt="picto Vue"
+                  />
+                </template>
+                <template #texte><p>Vue.js</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/React_Logo.svg"
+                    alt="picto React"
+                  />
+                </template>
+                <template #texte><p>React</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img src="../assets/pictos/Figma.svg" alt="picto Figma" />
+                </template>
+                <template #texte><p>Figma</p></template>
+              </PresentationItemSkills>
+            </div>
+            <div class="container-hardSkills">
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Adobe_XD_CC_icon.svg"
+                    alt="picto XD"
+                  />
+                </template>
+                <template #texte><p>Adobe Xd</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Adobe_InDesign_CC_logo.svg"
+                    alt="picto Indesign"
+                  />
+                </template>
+                <template #texte><p>Adobe Indesign</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Adobe_Photoshop_CC_icon.svg"
+                    alt="picto Photoshop"
+                  />
+                </template>
+                <template #texte><p>Adobe Photoshop</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Adobe_Illustrator_CC_icon.svg"
+                    alt="picto Illustrator"
+                  />
+                </template>
+                <template #texte><p>Adobe Illustrator</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Photopea_logo.svg"
+                    alt="picto Photopea"
+                  />
+                </template>
+                <template #texte><p>Photopea</p></template>
+              </PresentationItemSkills>
+              <PresentationItemSkills>
+                <template #image>
+                  <img
+                    src="../assets/pictos/Tailwind_CSS_Logo.svg"
+                    alt="picto Tailwind"
+                  />
+                </template>
+                <template #texte><p>Tailwind</p></template>
+              </PresentationItemSkills>
+            </div>
+          </div>
+        </div>
+        <div class="container-hardSkills-titre">
+          <div class="titre-skills"><h3>Savoir-être</h3></div>
+          <div class="container-hardSkills">
+            <ul>
+              <li>Réactive</li>
+              <li>Rigoureuse</li>
+              <li>Créative</li>
+              <li>Perséverante</li>
+              <li>À l'écoute</li>
+              <li>Sens de l'organisation</li>
+              <li>Maîtrise avancée du français</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -132,12 +198,31 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
   justify-content: center;
   align-items: center;
 }
+.super-container-hardSkills {
+  display: flex;
+  flex-direction: column;
+}
+.container-hardSkills-titre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto 2.5rem auto;
+}
+.titre-skills {
+  display: flex;
+  justify-content: center;
+}
+.two-containers-hard-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container-hardSkills {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin: 0 auto;
   width: fit-content;
 }
 .container-button {
@@ -152,7 +237,6 @@ button {
   cursor: pointer;
   font-size: 1.1rem;
   border: none;
-
   box-shadow: inset 0px 0px 10px 3px #26a8bf;
   background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%);
   background-color: #5bb6c6;
@@ -160,6 +244,7 @@ button {
   color: white;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 1rem;
 }
 
 a:hover {
@@ -207,6 +292,18 @@ a {
   border-radius: 10rem;
   border: 2px #219db2 solid;
 }
+.height100 {
+  height: 100%;
+}
+h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+li {
+  font-weight: 600;
+  padding: 0.2rem;
+}
 @media (min-width: 471px) {
   .espace-nav {
     margin-top: 8rem;
@@ -250,6 +347,20 @@ a {
     width: 8.5rem;
     border: 2px #219db2 solid;
   }
+  .super-container-hardSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+  .container-hardSkills-titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .container-hardSkills {
+    margin: 0 2rem;
+  }
 }
 @media (min-width: 1135px) {
   .espace-nav {
@@ -281,6 +392,17 @@ a {
   }
   p {
     font-size: 1rem;
+  }
+  .container-hardSkills-titre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0 2rem;
+  }
+  .container-hardSkills {
+    display: flex;
+    flex-direction: column;
   }
 }
 </style>
