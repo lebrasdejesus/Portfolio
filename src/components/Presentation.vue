@@ -107,7 +107,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
         <PresentationItemSkills>
           <template #image>
             <img
-              src="../assets/pictos/Adobe InDesign CC logo.svg"
+              src="../assets/pictos/Adobe_InDesign_CC_logo.svg"
               alt="picto Indesign"
             />
           </template>
