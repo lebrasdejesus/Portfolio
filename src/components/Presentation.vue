@@ -61,7 +61,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
       <div class="container-hardSkills">
         <PresentationItemSkills>
           <template #image>
-            <img src="../assets/pictos/HTML5 Logo Badge.svg" alt="picto Html" />
+            <img src="../assets/pictos/HTML5.svg" alt="picto Html" />
           </template>
           <template #texte><p>HTML 5</p></template>
         </PresentationItemSkills>
