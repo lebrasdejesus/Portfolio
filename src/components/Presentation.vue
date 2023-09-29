@@ -110,12 +110,21 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
                 </PresentationItemSkills>
                 <PresentationItemSkills>
                   <template #image>
+                    <img
+                      src="../assets/pictos/Tailwind_CSS_Logo.svg"
+                      alt="picto Tailwind"
+                    />
+                  </template>
+                  <template #texte><p>Tailwind</p></template>
+                </PresentationItemSkills>
+              </div>
+              <div class="container-hardSkills">
+                <PresentationItemSkills>
+                  <template #image>
                     <img src="../assets/pictos/Figma.svg" alt="picto Figma" />
                   </template>
                   <template #texte><p>Figma</p></template>
                 </PresentationItemSkills>
-              </div>
-              <div class="container-hardSkills">
                 <PresentationItemSkills>
                   <template #image>
                     <img
@@ -160,15 +169,6 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
                     />
                   </template>
                   <template #texte><p>Photopea</p></template>
-                </PresentationItemSkills>
-                <PresentationItemSkills>
-                  <template #image>
-                    <img
-                      src="../assets/pictos/Tailwind_CSS_Logo.svg"
-                      alt="picto Tailwind"
-                    />
-                  </template>
-                  <template #texte><p>Tailwind</p></template>
                 </PresentationItemSkills>
               </div>
             </div>
@@ -217,7 +217,8 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
 .titre-skills {
   display: flex;
   justify-content: center;
-  line-height: 0.8rem;
+  line-height: 0.7rem;
+  margin-bottom: 0.6rem;
   /* color: white; */
 }
 .container-two-containers-hard-skills {
