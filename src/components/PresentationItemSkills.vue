@@ -15,11 +15,11 @@
 <style scoped>
 .item {
   display: flex;
-  /* position: relative; */
   flex-direction: row;
   justify-content: left;
   align-items: center;
   padding: 0.3rem;
+  width: fit-content;
 }
 .details {
   /* flex: 1; */

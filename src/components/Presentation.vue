@@ -58,21 +58,71 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           </div>
         </div>
       </PresentationItem>
-      <PresentationItemSkills>
-        <template #image>
-          <img src="../assets/pictos/Adobe_XD_CC_icon.svg" alt="picto XD" />
-        </template>
-        <template #texte><p>Adobe Xd</p></template>
-      </PresentationItemSkills>
-      <PresentationItemSkills>
-        <template #image>
-          <img
-            src="../assets/pictos/Adobe_Photoshop_CC_icon.svg"
-            alt="picto Photoshop"
-          />
-        </template>
-        <template #texte><p>Adobe Photoshop</p></template>
-      </PresentationItemSkills>
+      <div class="container-hardSkills">
+        <PresentationItemSkills>
+          <template #image>
+            <img src="../assets/pictos/HTML5 Logo Badge.svg" alt="picto Html" />
+          </template>
+          <template #texte><p>HTML 5</p></template>
+        </PresentationItemSkills>
+        <PresentationItemSkills>
+          <template #image>
+            <img src="../assets/pictos/CSS3_logo.svg" alt="picto Css" />
+          </template>
+          <template #texte><p>CSS 3</p></template>
+        </PresentationItemSkills>
+        <PresentationItemSkills>
+          <template #image>
+            <img
+              src="../assets/pictos/Unofficial_JavaScript_logo_2.svg"
+              alt="picto Js"
+            />
+          </template>
+          <template #texte><p>JavaScript</p></template>
+        </PresentationItemSkills>
+        <PresentationItemSkills>
+          <template #image>
+            <img src="../assets/pictos/Adobe_XD_CC_icon.svg" alt="picto XD" />
+          </template>
+          <template #texte><p>Adobe Xd</p></template>
+        </PresentationItemSkills>
+        <PresentationItemSkills>
+          <template #image>
+            <img
+              src="../assets/pictos/Adobe_Photoshop_CC_icon.svg"
+              alt="picto Photoshop"
+            />
+          </template>
+          <template #texte><p>Adobe Photoshop</p></template>
+        </PresentationItemSkills>
+        <PresentationItemSkills>
+          <template #image>
+            <img
+              src="../assets/pictos/Adobe_Illustrator_CC_icon.svg"
+              alt="picto Illustrator"
+            />
+          </template>
+          <template #texte><p>Adobe Illustrator</p></template>
+        </PresentationItemSkills>
+        <PresentationItemSkills>
+          <template #image>
+            <img
+              src="../assets/pictos/Adobe InDesign CC logo.svg"
+              alt="picto Indesign"
+            />
+          </template>
+          <template #texte><p>Adobe Indesign</p></template>
+        </PresentationItemSkills>
+        <PresentationItemSkills>
+          <template #image>
+            <img
+              src="../assets/pictos/Vue.js_Logo_2.svg"
+              alt="picto Indesign"
+            />
+          </template>
+          <template #texte><p>Adobe Indesign</p></template>
+        </PresentationItemSkills>
+      </div>
     </div>
     <!-- <PresentationItem>
     <template #icon>
@@ -181,6 +231,14 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container-hardSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0 auto;
+  width: fit-content;
 }
 .container-button {
   display: flex;

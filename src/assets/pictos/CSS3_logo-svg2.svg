@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>CSS3_logo-svg</title>
+	<style>
+		.s0 { fill: #264de4 } 
+		.s1 { fill: #2965f1 } 
+		.s2 { fill: #ebebeb } 
+		.s3 { fill: #ffffff } 
+	</style>
+	<path id="Layer" class="s0" d="m71.4 460.8l-41.1-460.8h451.4l-41.1 460.7-184.9 51.3z"/>
+	<path id="Layer" class="s1" d="m405.4 431.4l35.1-393.7h-184.5v435.1z"/>
+	<path id="Layer" class="s2" d="m124.5 208.6l5 56.5h126.5v-56.5zm-5-57.9h136.5v-56.5h-141.7zm136.6 204.7h-0.2l-63-17-4-45.1h-56.7l7.9 88.8 115.7 32.1h0.3z"/>
+	<path id="Layer" class="s3" d="m255.8 208.6v56.5h69.6l-6.6 73.3-63 17v58.8l115.9-32.1 0.8-9.5 13.3-148.8 1.4-15.2 10.2-114.4h-141.6v56.5h79.6l-5.1 57.9z"/>
+</svg>
