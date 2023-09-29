@@ -1,5 +1,6 @@
 <script setup>
 import PresentationItem from "./PresentationItem.vue";
+import PresentationItemSkills from "./PresentationItemSkills.vue";
 </script>
 
 <template>
@@ -57,6 +58,21 @@ import PresentationItem from "./PresentationItem.vue";
           </div>
         </div>
       </PresentationItem>
+      <PresentationItemSkills>
+        <template #image>
+          <img src="../assets/pictos/Adobe_XD_CC_icon.svg" alt="picto XD" />
+        </template>
+        <template #texte><p>Adobe Xd</p></template>
+      </PresentationItemSkills>
+      <PresentationItemSkills>
+        <template #image>
+          <img
+            src="../assets/pictos/Adobe_Photoshop_CC_icon.svg"
+            alt="picto Photoshop"
+          />
+        </template>
+        <template #texte><p>Adobe Photoshop</p></template>
+      </PresentationItemSkills>
     </div>
     <!-- <PresentationItem>
     <template #icon>

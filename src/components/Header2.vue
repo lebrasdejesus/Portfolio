@@ -2,7 +2,7 @@
   <div class="container1">
     <div class="deep-blue">
       <div class="container-h1">
-        <a href="/"><h1>Frédérique CHAMBINAUD</h1></a>
+        <a href="./"><h1>Frédérique CHAMBINAUD</h1></a>
       </div>
     </div>
     <nav class="blue">
