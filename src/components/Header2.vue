@@ -66,24 +66,24 @@ nav a {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  display: inline-block;
-  padding: 0 1rem;
+  /* display: inline-block; */
+  padding: 0 0.2rem;
   border-left: 0px solid rgba(33, 157, 178, 0.3);
   color: white;
   cursor: pointer;
 }
 nav a p:hover,
 h1:hover {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 nav a:first-of-type {
   border: 0;
 }
 h1 {
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   /* position: relative; */
-  padding: 1.1rem;
+  padding: 0.6rem;
   color: white;
 }
 .picto a {

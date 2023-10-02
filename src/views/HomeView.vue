@@ -13,3 +13,9 @@ import Contact from "../components/Contact.vue";
     <Contact />
   </main>
 </template>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
