@@ -36,12 +36,13 @@
   /* border: 1px white solid; */
   /* box-shadow: black 1px 1px 1px; */
 }
-.img img {
-}
 
 @media (min-width: 768px) {
   .item {
     /* padding: 3rem 6rem; */
+  }
+  .details {
+    font-size: 1rem;
   }
 }
 @media (min-width: 1024px) {

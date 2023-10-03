@@ -4,39 +4,40 @@
       <h3>CONTACT</h3>
     </div>
     <div class="login-card-container">
-      <div class="login-card">
-        <!-- <div class="login-card-logo">
+      <!-- <div class="login-card"> -->
+      <!-- <div class="login-card-logo">
           <img src="../assets/logo.png" alt="logo" />
         </div> -->
-        <!-- <div class="login-card-header">
+      <!-- <div class="login-card-header">
           <div>Veuillez remplir le formulaire ci-dessous</div>
         </div> -->
-        <form class="login-card-form">
-          <div class="login-card-form-2">
-            <div class="form-item">
-              <span class="form-item-icon material-symbols-rounded"
-                >person</span
-              >
-              <input type="text" placeholder="Nom" id="nom" required />
-            </div>
-            <div class="form-item">
-              <span class="form-item-icon material-symbols-rounded"
-                >person</span
-              >
-              <input type="text" placeholder="Prénom" id="prenom" required />
-            </div>
+      <form
+        action="mailto:lastagiaireimprobable@gmail.com"
+        method="post"
+        enctype="text/plain"
+        class="login-card-form"
+      >
+        <div class="login-card-form-2">
+          <div class="form-item">
+            <span class="form-item-icon material-symbols-rounded">person</span>
+            <input type="text" placeholder="Nom" id="nom" required />
           </div>
+          <div class="form-item">
+            <span class="form-item-icon material-symbols-rounded">person</span>
+            <input type="text" placeholder="Prénom" id="prenom" required />
+          </div>
+        </div>
 
-          <div class="form-item">
-            <span class="form-item-icon material-symbols-rounded">mail</span>
-            <input type="email" placeholder="Email" id="email" required />
-          </div>
-          <div class="form-item">
-            <textarea id="message" name="message" required></textarea>
-          </div>
-          <button type="submit">Envoyer</button>
-        </form>
-      </div>
+        <div class="form-item">
+          <span class="form-item-icon material-symbols-rounded">mail</span>
+          <input type="email" placeholder="Email" id="email" required />
+        </div>
+        <div class="form-item">
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+      </form>
+      <!-- </div> -->
     </div>
   </div>
 </template>
@@ -44,6 +45,7 @@
 <style scoped>
 .totalite {
   min-height: 100vh;
+  padding-top: 3rem;
 }
 .titre {
   background-color: #219db2;
@@ -66,17 +68,14 @@ h3 {
 }
 .login-card-container {
   /* min-height: 100vh; */
-  /* background: #337985; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  /* width: 100%; */
-  padding: 3rem;
+  padding: 3rem 1.5rem;
   /* background: linear-gradient(to top, white, #5bb6c6); */
   background-color: rgba(24, 151, 168, 0.15);
-
-  margin: 3rem;
+  margin: 3rem 0;
 }
 /* Login Card */
 .login-card {
@@ -84,7 +83,7 @@ h3 {
   /* background: rgba(255, 255, 255, 0.5); */
   /* padding: 4rem; */
   /* border-radius: 10px; */
-  position: relative;
+  /* position: relative; */
 }
 
 /* Login Card Logo */
@@ -117,6 +116,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  width: 100%;
 }
 .login-card-form-2 {
   display: flex;
@@ -144,22 +144,22 @@ h3 {
 } */
 
 /* Login Card Form Elements */
-.login-card input[type="text"] {
+input[type="text"] {
   border: none;
   outline: none;
   background: rgba(255, 255, 255, 0.7);
   padding: 1rem 1.5rem;
-  padding-left: calc(1rem * 3.5);
+  padding-left: calc(1rem * 3.2);
   border-radius: 100px;
   width: 100%;
   transition: background 0.5s;
 }
-.login-card input[type="email"] {
+input[type="email"] {
   border: none;
   outline: none;
   background: rgba(255, 255, 255, 0.7);
   padding: 1rem 1.5rem;
-  padding-left: calc(1rem * 3.5);
+  padding-left: calc(1rem * 3.2);
   border-radius: 100px;
   width: 100%;
   transition: background 0.5s;
@@ -168,7 +168,7 @@ h3 {
   width: 100%;
 }
 
-.login-card input:focus {
+input:focus {
   background: white;
 }
 
@@ -189,7 +189,6 @@ textarea {
   font-family: "Open sans";
   font-size: 0.9rem;
 }
-
 button {
   padding: 0.7rem 1.1rem;
   border-radius: 2rem;
@@ -205,25 +204,24 @@ button {
   font-family: "Montserrat", sans-serif;
   /* width: 50%; */
 }
-
 button:hover {
   background: linear-gradient(to bottom, #5bb6c6 25%, #1897a8 100%);
   background-color: #5bb6c6;
   position: relative;
   top: -1px;
 }
+@media (min-width: 471px) {
+  .login-card-container {
+    padding: 3rem;
+    margin: 3rem 0;
+  }
+}
 @media (min-width: 768px) {
-  .totalite {
-    padding: 3rem 6rem;
-    width: 100%;
+  .login-card-container {
+    margin: 3rem auto;
   }
-  /* .login-card-container {
-    padding: 2rem 0;
+  .login-card-form {
+    max-width: 40rem;
   }
-
-  .login-card {
-    width: 280px;
-    padding: 2rem;
-  } */
 }
 </style>

@@ -65,7 +65,11 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
               <div class="container-hardSkills">
                 <PresentationItemSkills>
                   <template #image>
-                    <img src="../assets/pictos/HTML5.svg" alt="picto Html" />
+                    <img
+                      src="../assets/pictos/HTML5.svg"
+                      alt="picto Html"
+                      class="height100"
+                    />
                   </template>
                   <template #texte><p>HTML 5</p></template>
                 </PresentationItemSkills>
@@ -111,6 +115,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
                     <img
                       src="../assets/pictos/Tailwind_CSS_Logo.svg"
                       alt="picto Tailwind"
+                      class="width100"
                     />
                   </template>
                   <template #texte><p>Tailwind</p></template>
@@ -128,6 +133,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
                     <img
                       src="../assets/pictos/Adobe_XD_CC_icon.svg"
                       alt="picto XD"
+                      class="height100"
                     />
                   </template>
                   <template #texte><p>Adobe Xd</p></template>
@@ -137,6 +143,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
                     <img
                       src="../assets/pictos/Adobe_InDesign_CC_logo.svg"
                       alt="picto Indesign"
+                      class="height100"
                     />
                   </template>
                   <template #texte><p>Adobe Indesign</p></template>
@@ -146,6 +153,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
                     <img
                       src="../assets/pictos/Adobe_Photoshop_CC_icon.svg"
                       alt="picto Photoshop"
+                      class="height100"
                     />
                   </template>
                   <template #texte><p>Adobe Photoshop</p></template>
@@ -155,6 +163,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
                     <img
                       src="../assets/pictos/Adobe_Illustrator_CC_icon.svg"
                       alt="picto Illustrator"
+                      class="height100"
                     />
                   </template>
                   <template #texte><p>Adobe Illustrator</p></template>
@@ -315,6 +324,9 @@ a {
 .height100 {
   height: 100%;
 }
+.width100 {
+  width: 100%;
+}
 h3 {
   margin-bottom: 1rem;
   text-align: center;
@@ -366,6 +378,7 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: start;
+    padding: 2rem 6rem;
   }
   .container-two-containers-hard-skills {
     display: flex;
@@ -381,10 +394,10 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin: 2rem;
+    margin: 1rem 0;
   }
   .container-hardSkills {
-    margin: 0 2rem;
+    margin: 0 1rem;
   }
   .margin-bottom {
     padding-bottom: 0rem;

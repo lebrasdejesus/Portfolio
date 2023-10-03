@@ -29,14 +29,14 @@
   justify-content: center;
   align-items: center;
   height: 0.7rem;
-  margin-bottom: 2rem;
   position: relative;
+  /* margin: 0.6rem 3rem 2rem 3rem; */
+  margin-bottom: 2rem;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
-  /* margin-bottom: 0.4rem; */
   background-color: rgb(255, 255, 255);
   padding: 0rem 0.7rem;
   position: absolute;
