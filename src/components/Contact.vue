@@ -11,12 +11,7 @@
       <!-- <div class="login-card-header">
           <div>Veuillez remplir le formulaire ci-dessous</div>
         </div> -->
-      <form
-        action="mailto:lastagiaireimprobable@gmail.com"
-        method="post"
-        enctype="text/plain"
-        class="login-card-form"
-      >
+      <form class="login-card-form">
         <div class="login-card-form-2">
           <div class="form-item">
             <span class="form-item-icon material-symbols-rounded">person</span>

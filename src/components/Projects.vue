@@ -73,8 +73,8 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           >site suzuki concession</a
         >. <br />
         Rien n'est cliquable, c'est normal... et ce n'est pas optimisé pour le
-        responsive, il est visible pour des écrans d'une taille maximale de 960
-        px au maximum.
+        responsive, il est visible pour des écrans d'une taille minimale de 960
+        px.
       </ProjectsItem>
     </div>
   </div>
