@@ -48,14 +48,12 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
         </div>
         <div class="container-button">
           <button>
-            <a
-              href="Portfolio/tree/main/src/assets/CV-FCHAMBINAUD.pdf"
-              target="blank"
+            <a href="../assets/CV-FCHAMBINAUD.pdf" target="blank"
               >Télécharger mon cv</a
             >
           </button>
           <button>
-            <a href="/Portfolio/src/assets/Lakson-NB.jpg" target="blank"
+            <a href="../assets/Lakson-NB.jpg" target="blank"
               >Télécharger une image</a
             >
           </button>
