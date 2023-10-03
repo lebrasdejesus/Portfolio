@@ -31,20 +31,18 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
               débutante, mais j'ai à cœur de progresser et
               <b>j'apprends tous les jours un peu plus</b>. Mon portfolio est
               justement là pour vous montrer mes réalisations dans ce nouveau
-              domaine, où le graphisme rencontre le code. <br /><br />N'hésitez
-              pas à me
+              domaine, où le graphisme rencontre le code. <br /><br />J'ai
+              décidé de continuer mon apprentissage avec la <b>3W Academy</b>,
+              au rythme de 3 semaines en entreprise et une semaine en cours,
+              <b
+                >je recherche donc une entreprise pour un contrat en alternance
+                en tant qu'intégrateur/developpeur front-end</b
+              >
+              donc n'hésitez pas à me
               <span
                 ><a href="#contact"><b>contacter</b></a></span
               >
-              si vous voulez en savoir plus sur moi et, pourquoi pas, me
-              proposer un
-              <b
-                >contrat en alternance en tant qu'intégrateur/developpeur
-                front-end</b
-              >
-              puisque j'ai décidé de continuer mon apprentissage avec la
-              <b>3W Academy</b>, au rythme de 3 semaines en entreprise et une
-              semaine en cours.
+              si vous pensez que mon profil peut vous intéresser.
             </p>
           </div>
         </div>
@@ -194,12 +192,12 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
 </template>
 <style scoped>
 .espace-nav {
-  margin-top: 11.5rem;
-  /* position: relative; */
+  /* margin-top: 11.5rem; */
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 3rem;
 }
 .super-container-hardSkills {
   display: flex;
@@ -290,9 +288,13 @@ span {
 a {
   color: white;
 }
-#head:target {
+/* #head:target {
   padding-top: 14.4rem;
   margin-top: -14.4rem;
+} */
+#head:target {
+  padding-top: 7rem;
+  margin-top: -7rem;
 }
 .photo-et-texte {
   display: flex;
@@ -328,8 +330,7 @@ li {
 }
 @media (min-width: 471px) {
   .espace-nav {
-    margin-top: 8rem;
-    /* margin-top: 5rem; */
+    padding-top: 6rem;
   }
   #head:target {
     padding-top: 8rem;
@@ -338,7 +339,7 @@ li {
 }
 @media (min-width: 768px) {
   .espace-nav {
-    margin-top: 5.5rem;
+    padding-top: 5.5rem;
   }
   #head:target {
     padding-top: 5.5rem;
@@ -390,9 +391,6 @@ li {
   }
 }
 @media (min-width: 1135px) {
-  .espace-nav {
-    margin-top: 4rem;
-  }
   #head:target {
     padding-top: 4rem;
     margin-top: -4rem;

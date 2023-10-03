@@ -70,14 +70,15 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
   </div>
 </template>
 
-<!-- <template>
-  <div class="container">
-    <div class="one"></div>
-    <div class="two"></div>
-    <div class="three"></div>
-  </div>
-</template> -->
 <style scoped>
+#reals {
+  padding-top: 3rem;
+  min-height: 100vh;
+}
+#reals:target {
+  padding-top: 5rem;
+  margin-top: -5rem;
+}
 .titre {
   background-color: #219db2;
   display: flex;
@@ -98,60 +99,25 @@ h3 {
   padding: 0rem 0.7rem;
   position: absolute;
 }
-#reals {
-  min-height: 100vh;
-}
-#reals:target {
-  padding-top: 14.4rem;
-  margin-top: -14.4rem;
-}
-
 @media (min-width: 471px) {
   #reals:target {
-    padding-top: 11rem;
-    margin-top: -11rem;
+    padding-top: 8rem;
+    margin-top: -8rem;
   }
 }
 @media (min-width: 768px) {
-  #reals:target {
-    padding-top: 8.5rem;
-    margin-top: -8.5rem;
-  }
   .titre {
-    margin: 0 6rem;
+    margin: 3rem 3rem 2rem 3rem;
+  }
+  #reals:target {
+    padding-top: 5rem;
+    margin-top: -5rem;
   }
 }
 @media (min-width: 1146px) {
   #reals:target {
-    padding-top: 7rem;
-    margin-top: -7rem;
+    padding-top: 4rem;
+    margin-top: -4rem;
   }
 }
-/* .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  border: 1px black solid;
-  margin-top: 2rem;
-}
-.one {
-  background-color: aqua;
-  height: 5rem;
-}
-.two {
-  background-color: rgb(33, 92, 92);
-  height: 5rem;
-}
-.three {
-  background-color: rgb(255, 0, 208);
-  height: 5rem;
-}
-
-@media (min-width: 768px) {
-  .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-  }
-} */
 </style>
