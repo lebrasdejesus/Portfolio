@@ -60,7 +60,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
             >
           </button>
           <button>
-            <a href="src/assets/Suzuki-NB.jpg" target="blank">Voir un jpg</a>
+            <a href="src/assets/Suzuki-NB.jpg" download>Voir un jpg</a>
           </button>
           <button>
             <a href="src/assets/cvfchambinaud.pdf" download>DL mon cv</a>
