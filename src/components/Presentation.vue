@@ -1,6 +1,8 @@
 <script setup>
 import PresentationItem from "./PresentationItem.vue";
 import PresentationItemSkills from "./PresentationItemSkills.vue";
+
+const cvURL = "public/cvfchambinaud-public.pdf";
 </script>
 
 <template>
@@ -53,12 +55,13 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           >
         </button>
         <button>
-          <!-- <a href="../../public/cvfchambinaud-public.pdf" target="_blank"
+          <!-- <a href="/cvfchambinaud-public.pdf" target="_blank"
             >Ouvrir mon cv depuis public</a
           > -->
-          <a href="../../public/cvfchambinaud-public.pdf " target="_blank"
+          <!-- <a href="../../public/cvfchambinaud-public.pdf " target="_blank"
             >Ouvrir mon cv depuis public</a
-          >
+          > -->
+          <a :href="cvURL" download="fchambinaud.pdf">Télécharger CV (PDF)</a>
         </button>
         <!-- <button>
           <a href="src/assets/cvfchambinaud.pdf" target="_blank"
