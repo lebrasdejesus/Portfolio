@@ -56,11 +56,11 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           </button>
           <button>
             <a href="src/assets/cvfchambinaud.pdf" target="blank"
-              >Voir un autre cv$$$</a
+              >Voir un autre cv</a
             >
           </button>
           <button>
-            <a href="../assets/Suzuki-NB.jpg" target="blank">Voir un jpg</a>
+            <a href="src/assets/Suzuki-NB.jpg" target="blank">Voir un jpg</a>
           </button>
           <button>
             <a href="../assets/Suzuki-NB.jpg" download>DL un jpg</a>
