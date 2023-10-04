@@ -48,13 +48,13 @@ const cvURL =
         </div>
       </PresentationItem>
       <div class="container-button">
-        <button>
+        <!-- <button>
           <a
             href="https://raw.githubusercontent.com/lebrasdejesus/Portfolio/10155ac4d053bbb40de05423900a778f1c3b5b13/src/assets/CV-FCHAMBINAUD.pdf"
             target="_blank"
             >Télécharger mon cv</a
           >
-        </button>
+        </button> -->
         <button>
           <!-- <a href="/cvfchambinaud-public.pdf" target="_blank"
             >Ouvrir mon cv depuis public</a
@@ -63,7 +63,7 @@ const cvURL =
             >Ouvrir mon cv depuis public</a
           > -->
           <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
-            >Télécharger CV (PDF)</a
+            >Télécharger mon cv</a
           >
         </button>
         <!-- <button>

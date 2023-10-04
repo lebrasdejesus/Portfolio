@@ -11,22 +11,46 @@
       <!-- <div class="login-card-header">
           <div>Veuillez remplir le formulaire ci-dessous</div>
         </div> -->
-      <form class="login-card-form">
+      <form
+        action="https://formcarry.com/s/DPW3iJbBnC"
+        method="POST"
+        accept-charset="UTF-8"
+        class="login-card-form"
+      >
         <div class="login-card-form-2">
           <div class="form-item">
             <span class="form-item-icon material-symbols-rounded">person</span>
-            <input type="text" placeholder="Nom" id="nom" required />
+            <input
+              type="text"
+              placeholder="Nom"
+              id="nom"
+              name="lastName"
+              required
+            />
           </div>
           <div class="form-item">
             <span class="form-item-icon material-symbols-rounded">person</span>
-            <input type="text" placeholder="Prénom" id="prenom" required />
+            <input
+              type="text"
+              placeholder="Prénom"
+              id="prenom"
+              name="firstName"
+              required
+            />
           </div>
         </div>
 
         <div class="form-item">
           <span class="form-item-icon material-symbols-rounded">mail</span>
-          <input type="email" placeholder="Email" id="email" required />
+          <input
+            type="email"
+            placeholder="Email"
+            id="email"
+            name="email"
+            required
+          />
         </div>
+        <input type="hidden" name="_gotcha" />
         <div class="form-item">
           <textarea id="message" name="message" required></textarea>
         </div>
