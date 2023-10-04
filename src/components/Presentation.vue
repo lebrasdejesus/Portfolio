@@ -55,8 +55,8 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
             >
           </button>
           <button>
-            <a href="../assets/cvfchambinaud.pdf" target="blank"
-              >Voir un autre cv</a
+            <a href="src/assets/cvfchambinaud.pdf" target="blank"
+              >Voir un autre cv$$$</a
             >
           </button>
           <button>
