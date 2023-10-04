@@ -50,23 +50,28 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           <button>
             <a
               href="https://raw.githubusercontent.com/lebrasdejesus/Portfolio/10155ac4d053bbb40de05423900a778f1c3b5b13/src/assets/CV-FCHAMBINAUD.pdf"
-              target="blank"
+              target="_blank"
               >Télécharger mon cv</a
             >
           </button>
           <button>
-            <a href="src/assets/cvfchambinaud.pdf" target="blank"
+            <a href="src/assets/cvfchambinaud.pdf" target="_blank"
               >Voir un autre cv</a
             >
           </button>
           <button>
-            <a href="src/assets/Suzuki-NB.jpg" target="blank">Voir un jpg</a>
+            <a href="src/assets/Suzuki-NB.jpg" target="_blank">Voir un jpg</a>
           </button>
           <button>
             <a href="../assets/Suzuki-NB.jpg" download>DL un jpg</a>
           </button>
           <button>
-            <a href="../assets/cvfchambinaud.pdf" download>DL mon cv</a>
+            <a href="../assets/cvfchambinaud.pdf" download>DL mon cv++</a>
+          </button>
+          <button>
+            <a href="../assets/cvfchambinaud.pdf" target="_blank"
+              >afficher mon cv++</a
+            >
           </button>
         </div>
       </PresentationItem>
