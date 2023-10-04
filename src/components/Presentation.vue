@@ -46,35 +46,35 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
             </p>
           </div>
         </div>
-        <div class="container-button">
-          <button>
-            <a
-              href="https://raw.githubusercontent.com/lebrasdejesus/Portfolio/10155ac4d053bbb40de05423900a778f1c3b5b13/src/assets/CV-FCHAMBINAUD.pdf"
-              target="_blank"
-              >Télécharger mon cv</a
-            >
-          </button>
-          <button>
-            <a href="src/assets/cvfchambinaud.pdf" target="_blank"
-              >Voir un autre cv</a
-            >
-          </button>
-          <button>
-            <a href="src/assets/Suzuki-NB.jpg" target="_blank">Voir un jpg</a>
-          </button>
-          <button>
-            <a href="../assets/Suzuki-NB.jpg" download>DL un jpg</a>
-          </button>
-          <button>
-            <a href="../assets/cvfchambinaud.pdf" download>DL mon cv++</a>
-          </button>
-          <button>
-            <a href="../assets/cvfchambinaud.pdf" target="_blank"
-              >afficher mon cv++</a
-            >
-          </button>
-        </div>
       </PresentationItem>
+      <div class="container-button">
+        <button>
+          <a
+            href="https://raw.githubusercontent.com/lebrasdejesus/Portfolio/10155ac4d053bbb40de05423900a778f1c3b5b13/src/assets/CV-FCHAMBINAUD.pdf"
+            target="_blank"
+            >Télécharger mon cv</a
+          >
+        </button>
+        <button>
+          <a href="src/assets/cvfchambinaud.pdf" target="_blank"
+            >Voir un autre cv</a
+          >
+        </button>
+        <button>
+          <a href="src/assets/Suzuki-NB.jpg" target="_blank">Voir un jpg</a>
+        </button>
+        <button>
+          <a href="../assets/Suzuki-NB.jpg" download>DL un jpg</a>
+        </button>
+        <button>
+          <a href="../assets/cvfchambinaud.pdf" download>DL mon cv++</a>
+        </button>
+        <button>
+          <a href="../assets/cvfchambinaud.pdf" target="_blank"
+            >afficher mon cv++</a
+          >
+        </button>
+      </div>
 
       <div class="super-container-hardSkills">
         <div class="container-hardSkills-titre">
