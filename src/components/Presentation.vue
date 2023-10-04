@@ -10,10 +10,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
         <template #heading>PRÉSENTATION</template>
         <div class="photo-et-texte">
           <div class="photo">
-            <img
-              src="../assets/IMG20230829161457(3)(1)(2).jpg"
-              alt="photo profil"
-            />
+            <img src="../assets/profil-carre.jpg" alt="photo profil" />
           </div>
           <div>
             <p>
@@ -56,6 +53,14 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           >
         </button>
         <button>
+          <!-- <a href="../../public/cvfchambinaud-public.pdf" target="_blank"
+            >Ouvrir mon cv depuis public</a
+          > -->
+          <a href="/cvfchambinaud-public.pdf " target="_blank"
+            >Ouvrir mon cv depuis public</a
+          >
+        </button>
+        <!-- <button>
           <a href="src/assets/cvfchambinaud.pdf" target="_blank"
             >Voir un autre cv</a
           >
@@ -73,7 +78,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           <a href="../assets/cvfchambinaud.pdf" target="_blank"
             >afficher mon cv++</a
           >
-        </button>
+        </button> -->
       </div>
 
       <div class="super-container-hardSkills">
