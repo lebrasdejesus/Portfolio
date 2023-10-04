@@ -59,6 +59,11 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
               >Télécharger un autre cv</a
             >
           </button>
+          <button>
+            <a href="src/assets/Suzuki-NB.jpg" target="blank"
+              >Télécharger un jpg</a
+            >
+          </button>
         </div>
       </PresentationItem>
 
