@@ -56,7 +56,7 @@ import PresentationItemSkills from "./PresentationItemSkills.vue";
           <!-- <a href="../../public/cvfchambinaud-public.pdf" target="_blank"
             >Ouvrir mon cv depuis public</a
           > -->
-          <a href="public/cvfchambinaud-public.pdf " target="_blank"
+          <a href="../../public/cvfchambinaud-public.pdf " target="_blank"
             >Ouvrir mon cv depuis public</a
           >
         </button>
