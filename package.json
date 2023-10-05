@@ -10,6 +10,8 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@vueuse/core": "^10.4.1",
+    "v-clipboard": "^3.0.0-next.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },

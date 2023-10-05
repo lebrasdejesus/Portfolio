@@ -1,16 +1,26 @@
+<script>
+import { Clipboard } from "v-clipboard";
+
+export default {
+  name: "App",
+  data() {},
+  methods: {
+    success() {
+      alert("success");
+    },
+    copy() {
+      Clipboard.copy("TEST");
+    },
+  },
+};
+</script>
+
 <template>
   <div class="totalite" id="contact">
     <div class="titre">
       <h3>CONTACT</h3>
     </div>
     <div class="login-card-container">
-      <!-- <div class="login-card"> -->
-      <!-- <div class="login-card-logo">
-          <img src="../assets/logo.png" alt="logo" />
-        </div> -->
-      <!-- <div class="login-card-header">
-          <div>Veuillez remplir le formulaire ci-dessous</div>
-        </div> -->
       <form
         action="https://formcarry.com/s/DPW3iJbBnC"
         method="POST"
@@ -55,16 +65,31 @@
           <textarea id="message" name="message" required></textarea>
         </div>
         <button type="submit" class="btn">Envoyer</button>
+
+        <!-- <button class="btn-copy">copier</button> -->
       </form>
-      <!-- </div> -->
+      <div class="login-card-form">
+        <p>
+          Si comme moi, vous n'aimez pas les formulaires de contact, vous pouvez
+          simplement
+          <b>copier mon adresse en cliquant sur le bouton ci-dessous&nbsp;:</b>
+        </p>
+        <button
+          class="btn"
+          v-clipboard="'f.chambinaud@gmail.com'"
+          v-clipboard:success="success"
+        >
+          f.chambinaud@gmail.com
+        </button>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.totalite {
-  padding-top: 6rem;
-}
+/* .totalite {
+  padding-top: 4rem;
+} */
 .titre {
   background-color: #219db2;
   display: flex;
@@ -85,9 +110,9 @@ h3 {
   position: absolute;
 }
 .login-card-container {
-  min-height: 100vh;
-
+  min-height: 80vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -96,41 +121,6 @@ h3 {
   background-color: rgba(24, 151, 168, 0.15);
   margin-top: 3rem;
 }
-/* Login Card */
-.login-card {
-  /* width: 75%; */
-  /* background: rgba(255, 255, 255, 0.5); */
-  /* padding: 4rem; */
-  /* border-radius: 10px; */
-  /* position: relative; */
-}
-
-/* Login Card Logo */
-/* .login-card-logo {
-  margin-bottom: 2rem;
-} */
-
-/* .login-card-logo img {
-  width: 60px;
-} */
-
-/* Login Card Standard */
-/* .login-card-logo,
-.login-card-header {
-  text-align: center;
-} */
-
-/* Login Card Header */
-/* .login-card-header {
-  margin-bottom: 2rem;
-} */
-
-/* .login-card-header div {
-  font-size: calc(1rem * 0.8);
-  opacity: 0.8;
-} */
-
-/* Login Card Form */
 .login-card-form {
   display: flex;
   flex-direction: column;
@@ -138,6 +128,7 @@ h3 {
   align-items: center;
   gap: 1.5rem;
   width: 100%;
+  margin-top: 3rem;
 }
 .login-card-form-2 {
   display: flex;
@@ -148,7 +139,6 @@ h3 {
 .login-card-form .form-item {
   position: relative;
 }
-
 .login-card-form .form-item .form-item-icon {
   position: absolute;
   top: 0.82rem;
@@ -156,16 +146,6 @@ h3 {
   font-size: 1.3rem;
   opacity: 0.4;
 }
-
-/* .login-card-form .form-item-other {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: calc(1rem * 0.8);
-  margin-bottom: 0.5rem;
-} */
-
-/* Login Card Form Elements */
 input[type="text"] {
   border: none;
   outline: none;
@@ -262,7 +242,6 @@ button::after {
   content: "";
   position: absolute;
   z-index: -1;
-  /* border: 4px #ffffff solid; */
 }
 button:hover {
   color: #fff;
@@ -286,13 +265,30 @@ button:hover a {
 .btn:hover::after {
   width: 100%;
 }
+p {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+.button.is-success {
+  background-color: #48c78e;
+  border-color: transparent;
+  color: #fff;
+}
+#contact:target {
+  padding-top: 6rem;
+  margin-top: -6rem;
+}
 @media (min-width: 471px) {
-  .totalite {
+  /* .totalite {
     padding-top: 8.5rem;
-  }
+  } */
   /* .login-card-container {
     padding: 3rem;
   } */
+  #contact:target {
+    padding-top: 8.5rem;
+    margin-top: -8.5rem;
+  }
 }
 @media (min-width: 768px) {
   .titre {
@@ -303,8 +299,12 @@ button:hover a {
   }
 }
 @media (min-width: 1135px) {
-  .totalite {
+  /* .totalite {
     padding-top: 7rem;
+  } */
+  #contact:target {
+    padding-top: 7rem;
+    margin-top: -7rem;
   }
 }
 </style>

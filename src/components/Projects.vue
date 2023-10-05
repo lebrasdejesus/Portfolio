@@ -23,11 +23,11 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
             >Reproduction d'un site vitrine</a
           ></template
         >
-        Ceci est le projet le plus abouti que j'ai réalisé (en dehors de ce
-        portfolio). Je l'ai commencé à la fin de mon stage (juin 2023) et l'ai
-        continué chez moi. Le but n'est pas de créer, mais vraiment d'essayer de
-        recopier un site vitrine déjà existant. J'ai choisi celui du restaurant
-        du
+        Ceci est le projet <b>Vue.js</b> le plus abouti que j'ai réalisé (en
+        dehors de ce portfolio). Je l'ai commencé à la fin de mon stage (juin
+        2023) et l'ai continué chez moi. Le but n'est pas de créer, mais
+        vraiment d'essayer de recopier un site vitrine déjà existant. J'ai
+        choisi celui du restaurant du
         <a href="https://lakson.fr/">Lakson</a> car il comportait une navbar, un
         footer, plusieurs pages, des boutons, une galerie photo... <br />
         Il doit encore être amélioré car certaines choses étaient trop complexes
@@ -47,15 +47,15 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           ></template
         >
         Durant mon stage (juin 2023), j'ai pris l'initiative de refaire un peu
-        de javascript, mais cette fois-ci dans Vue.js. J'ai commencé par refaire
-        de petits exercices que l'on avait fait en cours durant ma formation
-        chez M2i. Puis, j'ai étoffé ce projet avec d'autres petites choses (le
-        color picker, la possibilité d'ajout une image par l'utilisateur, et
-        enfin j'ai recopié une galerie photo trouvée sur dribbble). En
-        parallèle, j'ai construit une présentation avec une navbar, des titres,
-        et ait enfin rajouté un petit texte de présentation. J'ai pour l'instant
-        travaillé ce projet uniquement en desk, il est donc optimisé pour les
-        écrans de minimum 1200 px.
+        de <b>javascript</b>, mais cette fois-ci dans <b>Vue.js</b>. J'ai
+        commencé par refaire de petits exercices que l'on avait fait en cours
+        durant ma formation chez M2i. Puis, j'ai étoffé ce projet avec d'autres
+        petites choses (le color picker, la possibilité d'ajout une image par
+        l'utilisateur, et enfin j'ai recopié une galerie photo trouvée sur
+        dribbble). En parallèle, j'ai construit une présentation avec une
+        navbar, des titres, et ait enfin rajouté un petit texte de présentation.
+        J'ai pour l'instant travaillé ce projet uniquement en desk, il est donc
+        optimisé pour les écrans de minimum 1200 px.
       </ProjectsItem>
 
       <ProjectsItem>
@@ -69,9 +69,9 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
             >Reproduction de la navbar et slider du site Suzuki</a
           ></template
         >
-        Voici le tout premier projet que j'ai fait avec Vue.js, en juin 2023,
-        lors de mon stage. Mon maître de stage m'avait demandé de recopier le
-        menu et le slider du
+        Voici le tout premier projet que j'ai fait avec <b>Vue.js</b>, en juin
+        2023, lors de mon stage. Mon maître de stage m'avait demandé de recopier
+        le menu et le slider du
         <a href="https://concession.suzuki.fr/la-rochelle"
           >site suzuki concession</a
         >. <br />
@@ -86,6 +86,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
 <style scoped>
 #reals {
   padding-top: 3rem;
+  padding-bottom: 3rem;
   min-height: 100vh;
 }
 #reals:target {

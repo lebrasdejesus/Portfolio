@@ -63,7 +63,7 @@ const cvURL =
             >Ouvrir mon cv depuis public</a
           > -->
           <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
-            >Télécharger mon cv</a
+            >Plus de détails sur mon cv</a
           >
         </button>
         <!-- <button class="btn">Bouton 2</button> -->
@@ -285,7 +285,7 @@ const cvURL =
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
 }
 /* button {
   padding: 0.7rem 1.1rem;

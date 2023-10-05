@@ -18,7 +18,7 @@
   /* margin-top: 1rem; */
   display: flex;
   position: relative;
-  padding: 3rem 3rem 1rem 3rem;
+  padding: 3rem 3rem 0rem 3rem;
 }
 .details {
   /* flex: 1; */
@@ -46,7 +46,7 @@ h3 {
 } */
 @media (min-width: 768px) {
   .item {
-    padding: 3rem 6rem 1rem 6rem;
+    padding: 3rem 6rem 0rem 6rem;
   }
 }
 @media (min-width: 1024px) {
