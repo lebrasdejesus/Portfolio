@@ -91,9 +91,13 @@ nav a {
   padding: 0 0.7rem;
   border-left: 0px solid rgba(33, 157, 178, 0.3);
   color: white;
-  cursor: pointer;
+  transition: 0.4s;
 }
-nav a p:hover,
+nav a p:hover {
+  transform: scale(1.03);
+  text-decoration: underline 2px;
+  text-underline-offset: 0.3rem;
+}
 h1:hover {
   transform: scale(1.03);
 }

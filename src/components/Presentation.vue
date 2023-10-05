@@ -40,7 +40,7 @@ const cvURL =
               >
               donc n'hésitez pas à me
               <span
-                ><a href="#contact"><b>contacter</b></a></span
+                ><a href="#contact" class="link-text"><b>contacter</b></a></span
               >
               si vous pensez que mon profil peut vous intéresser.
             </p>
@@ -55,7 +55,7 @@ const cvURL =
             >Télécharger mon cv</a
           >
         </button> -->
-        <button>
+        <button class="btn">
           <!-- <a href="/cvfchambinaud-public.pdf" target="_blank"
             >Ouvrir mon cv depuis public</a
           > -->
@@ -66,6 +66,7 @@ const cvURL =
             >Télécharger mon cv</a
           >
         </button>
+        <!-- <button class="btn">Bouton 2</button> -->
         <!-- <button>
           <a href="src/assets/cvfchambinaud.pdf" target="_blank"
             >Voir un autre cv</a
@@ -286,7 +287,7 @@ const cvURL =
   align-items: center;
   margin: 1.5rem 0;
 }
-button {
+/* button {
   padding: 0.7rem 1.1rem;
   border-radius: 2rem;
   cursor: pointer;
@@ -299,20 +300,75 @@ button {
   color: white;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  /* margin-bottom: 1rem; */
+} */
+/* test bouton debut */
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-a:hover {
-  text-decoration: none;
+button {
+  padding: 0.7rem 1.1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border: 2px #219db2 solid;
+  /* box-shadow: inset 0px 0px 10px 3px #26a8bf; */
+  /* background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%); */
+  background: none;
+  /* text-shadow: 0px 1px 1px #337985; */
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  color: #219db2;
+}
+button::before,
+button::after {
+  border: #fff 2px solid;
+  border-radius: 4rem;
+  background-color: #219db2;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  /* border: 4px #ffffff solid; */
 }
 button:hover {
-  /* background: linear-gradient(to bottom, #1897a8 5%, #5bb6c6 100%);
-  background-color: #1897a8; */
-  background: linear-gradient(to bottom, #5bb6c6 25%, #1897a8 100%);
-  background-color: #5bb6c6;
-  position: relative;
-  top: -1px;
+  color: #fff;
+  border-radius: 4rem;
 }
+button:hover a {
+  color: #fff;
+}
+.btn::before {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.btn::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.btn:hover::after {
+  width: 100%;
+}
+
+/* test bouton fin */
+
+/* button:hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: -1px;
+  border: 2px #337985 solid;
+  border-radius: 2rem;
+  z-index: 1;
+} */
 /* button:active {
   position: relative;
   top: 1px;
@@ -324,9 +380,12 @@ p {
 span {
   background-color: #219db2;
 }
-a {
-  color: white;
+.link-text {
+  color: #fff;
 }
+/* a:hover {
+  color: white;
+} */
 /* #head:target {
   padding-top: 14.4rem;
   margin-top: -14.4rem;
@@ -362,9 +421,6 @@ h3 {
   text-align: center;
   font-size: 1.1rem;
 }
-/* .container-hardSkills p {
-  color: white;
-} */
 li {
   font-weight: 600;
   padding: 0.2rem;
@@ -372,17 +428,14 @@ li {
 }
 @media (min-width: 471px) {
   .espace-nav {
-    padding-top: 6rem;
+    padding-top: 5.5rem;
   }
   #head:target {
-    padding-top: 8rem;
-    margin-top: -8rem;
+    padding-top: 7rem;
+    margin-top: -7rem;
   }
 }
 @media (min-width: 768px) {
-  .espace-nav {
-    padding-top: 5.5rem;
-  }
   #head:target {
     padding-top: 5.5rem;
     margin-top: -5.5rem;
@@ -434,6 +487,9 @@ li {
   }
 }
 @media (min-width: 1135px) {
+  .espace-nav {
+    padding-top: 4rem;
+  }
   #head:target {
     padding-top: 4rem;
     margin-top: -4rem;

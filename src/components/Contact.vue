@@ -54,7 +54,7 @@
         <div class="form-item">
           <textarea id="message" name="message" required></textarea>
         </div>
-        <button type="submit">Envoyer</button>
+        <button type="submit" class="btn">Envoyer</button>
       </form>
       <!-- </div> -->
     </div>
@@ -63,8 +63,7 @@
 
 <style scoped>
 .totalite {
-  min-height: 100vh;
-  padding-top: 3rem;
+  padding-top: 6rem;
 }
 .titre {
   background-color: #219db2;
@@ -86,15 +85,16 @@ h3 {
   position: absolute;
 }
 .login-card-container {
-  /* min-height: 100vh; */
+  min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 3rem 1.5rem;
+  padding: 7rem 1.5rem;
   /* background: linear-gradient(to top, white, #5bb6c6); */
   background-color: rgba(24, 151, 168, 0.15);
-  margin: 3rem 0;
+  margin-top: 3rem;
 }
 /* Login Card */
 .login-card {
@@ -134,12 +134,15 @@ h3 {
 .login-card-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   width: 100%;
 }
 .login-card-form-2 {
   display: flex;
   flex-direction: row;
+  width: 100%;
   gap: 1.5rem;
 }
 .login-card-form .form-item {
@@ -208,7 +211,7 @@ textarea {
   font-family: "Open sans";
   font-size: 0.9rem;
 }
-button {
+/* button {
   padding: 0.7rem 1.1rem;
   border-radius: 2rem;
   cursor: pointer;
@@ -221,26 +224,87 @@ button {
   color: white;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
-  /* width: 50%; */
 }
 button:hover {
   background: linear-gradient(to bottom, #5bb6c6 25%, #1897a8 100%);
   background-color: #5bb6c6;
   position: relative;
   top: -1px;
+} */
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button {
+  padding: 0.7rem 1.1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border: 2px #219db2 solid;
+  /* box-shadow: inset 0px 0px 10px 3px #26a8bf; */
+  /* background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%); */
+  background: none;
+  /* text-shadow: 0px 1px 1px #337985; */
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  color: #219db2;
+}
+button::before,
+button::after {
+  border: #fff 2px solid;
+  border-radius: 4rem;
+  background-color: #219db2;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  /* border: 4px #ffffff solid; */
+}
+button:hover {
+  color: #fff;
+  border-radius: 4rem;
+}
+button:hover a {
+  color: #fff;
+}
+.btn::before {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.btn::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.btn:hover::after {
+  width: 100%;
 }
 @media (min-width: 471px) {
-  .login-card-container {
-    padding: 3rem;
-    margin: 3rem 0;
+  .totalite {
+    padding-top: 8.5rem;
   }
+  /* .login-card-container {
+    padding: 3rem;
+  } */
 }
 @media (min-width: 768px) {
-  .login-card-container {
-    margin: 3rem auto;
+  .titre {
+    margin: 0 6rem;
   }
   .login-card-form {
     max-width: 40rem;
+  }
+}
+@media (min-width: 1135px) {
+  .totalite {
+    padding-top: 7rem;
   }
 }
 </style>

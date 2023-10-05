@@ -25,15 +25,16 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
         >
         Ceci est le projet le plus abouti que j'ai réalisé (en dehors de ce
         portfolio). Je l'ai commencé à la fin de mon stage (juin 2023) et l'ai
-        continué chez moi. Le but ici n'est pas de créer, mais vraiment
-        d'essayer de recopier un site vitrine, j'ai choisi celui du restaurant
+        continué chez moi. Le but n'est pas de créer, mais vraiment d'essayer de
+        recopier un site vitrine déjà existant. J'ai choisi celui du restaurant
         du
-        <a href="https://lakson.fr/">Lakson</a> car il me semblait qu'il y avait
-        plusieurs choses intéressantes à essayer de reproduire. <br />
+        <a href="https://lakson.fr/">Lakson</a> car il comportait une navbar, un
+        footer, plusieurs pages, des boutons, une galerie photo... <br />
         Il doit encore être amélioré car certaines choses étaient trop complexes
         lorsque j'ai commencé. Je n'ai donc pas fait les animations, ni le
-        responsive, il n'est donc pour l'instant adapté que pour les écrans de
-        plus de 1300 px de large.
+        responsive (il n'est donc pour l'instant adapté que pour les écrans de
+        plus de 1300 px de large). Faire le responsive de ce projet est le
+        prochain défi que je vais me lancer je pense...
       </ProjectsItem>
 
       <ProjectsItem>
@@ -45,14 +46,16 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
             >Divers exercices Html Css Javascript</a
           ></template
         >
-        J'ai pris l'initiative de refaire un peu de js mais dans Vue.js, j'ai
-        commencé par refaire de petits exercices faits en cours (pendant ma
-        formation chez M2i). Puis, j'ai étoffé ce projet avec d'autres petites
-        choses (color picker, ajout d'une image par l'utilisateur, copie d'une
-        galerie photo sur dribbble), demandées par mon maître de stage. En
-        parallèle j'ai construit une présentation avec une navbar, des titres,
-        un texte de présentation. J'ai travaillé ce projet uniquement en desk,
-        il est donc optimisé pour les écrans de minimum 1200 px.
+        Durant mon stage (juin 2023), j'ai pris l'initiative de refaire un peu
+        de javascript, mais cette fois-ci dans Vue.js. J'ai commencé par refaire
+        de petits exercices que l'on avait fait en cours durant ma formation
+        chez M2i. Puis, j'ai étoffé ce projet avec d'autres petites choses (le
+        color picker, la possibilité d'ajout une image par l'utilisateur, et
+        enfin j'ai recopié une galerie photo trouvée sur dribbble). En
+        parallèle, j'ai construit une présentation avec une navbar, des titres,
+        et ait enfin rajouté un petit texte de présentation. J'ai pour l'instant
+        travaillé ce projet uniquement en desk, il est donc optimisé pour les
+        écrans de minimum 1200 px.
       </ProjectsItem>
 
       <ProjectsItem>
@@ -72,9 +75,9 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
         <a href="https://concession.suzuki.fr/la-rochelle"
           >site suzuki concession</a
         >. <br />
-        Rien n'est cliquable, c'est normal... et ce n'est pas optimisé pour le
-        responsive, il est visible pour des écrans d'une taille minimale de 960
-        px.
+        Rien n'est cliquable, c'est normal... et ce n'est pas non plus optimisé
+        pour le responsive, il est optimisé pour des écrans d'une taille
+        minimale de 960 px.
       </ProjectsItem>
     </div>
   </div>
@@ -122,8 +125,8 @@ h3 {
     margin: 3rem 6rem 2rem 6rem;
   }
   #reals:target {
-    padding-top: 5rem;
-    margin-top: -5rem;
+    padding-top: 5.5rem;
+    margin-top: -5.5rem;
   }
 }
 @media (min-width: 1135px) {
