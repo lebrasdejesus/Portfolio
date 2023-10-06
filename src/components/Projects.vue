@@ -24,17 +24,22 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           ></template
         >
         Ceci est le projet <b>Vue.js</b> le plus abouti que j'ai réalisé (en
-        dehors de ce portfolio). Je l'ai commencé à la fin de mon stage (juin
-        2023) et l'ai continué chez moi. Le but n'est pas de créer, mais
-        vraiment d'essayer de recopier un site vitrine déjà existant. J'ai
-        choisi celui du restaurant du
-        <a href="https://lakson.fr/">Lakson</a> car il comportait une navbar, un
-        footer, plusieurs pages, des boutons, une galerie photo... <br />
-        Il doit encore être amélioré car certaines choses étaient trop complexes
-        lorsque j'ai commencé. Je n'ai donc pas fait les animations, ni le
-        responsive (il n'est donc pour l'instant adapté que pour les écrans de
-        plus de 1300 px de large). Faire le responsive de ce projet est le
-        prochain défi que je vais me lancer je pense...
+        dehors de ce portfolio). J'ai commencé ce projet à la fin de mon stage,
+        en juin 2023, et l'ai donc continué chez moi. L'objectif principal était
+        de reproduire un site vitrine déjà existant. Mon choix s'est porté sur
+        <a href="https://lakson.fr/">le site du restaurant Lakson</a>, car il
+        comprenait
+        <b
+          >une barre de navigation, un pied de page, plusieurs pages, des
+          boutons, et une galerie de photos</b
+        >. <br />
+        Il reste encore des améliorations à apporter, car certaines parties
+        étaient assez complexes lorsque j'ai entamé ce projet. Ainsi, les
+        animations et la compatibilité avec les appareils de différentes tailles
+        (responsive design) n'ont pas encore été implémentées. Mon prochain défi
+        sera donc de rendre ce projet pleinement responsive (il est pour
+        l'instant conseillé de le regarder sur un écran d'au moins 1300&nbsp;px
+        de large).
       </ProjectsItem>
 
       <ProjectsItem>
@@ -43,19 +48,24 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
         </template>
         <template #texte
           ><a href="https://14h02m10s.github.io/TestVue-14h/" target="blank"
-            >Divers exercices Html Css Javascript</a
+            >Divers exercices en HTML, CSS et JavaScript</a
           ></template
         >
-        Durant mon stage (juin 2023), j'ai pris l'initiative de refaire un peu
-        de <b>javascript</b>, mais cette fois-ci dans <b>Vue.js</b>. J'ai
-        commencé par refaire de petits exercices que l'on avait fait en cours
-        durant ma formation chez M2i. Puis, j'ai étoffé ce projet avec d'autres
-        petites choses (le color picker, la possibilité d'ajout une image par
-        l'utilisateur, et enfin j'ai recopié une galerie photo trouvée sur
-        dribbble). En parallèle, j'ai construit une présentation avec une
-        navbar, des titres, et ait enfin rajouté un petit texte de présentation.
-        J'ai pour l'instant travaillé ce projet uniquement en desk, il est donc
-        optimisé pour les écrans de minimum 1200 px.
+        Durant mon stage (juin 2023), j'ai décidé de me lancer dans la création
+        de projets en <b>Vue.js</b>, afin de renforcer mes compétences en
+        <b>JavaScript</b>. J'ai commencé par revisiter des exercices que j'avais
+        fait lors de ma formation chez M2i. Par la suite, j'ai enrichi ce projet
+        en y ajoutant divers éléments, tels qu'un
+        <b
+          >sélecteur de couleurs, la possibilité pour l'utilisateur d'ajouter
+          des images, et enfin, j'ai reproduit une galerie de photos trouvée sur
+          Dribbble</b
+        >. <br />En parallèle de ces ajouts, j'ai élaboré une présentation
+        comprenant une barre de navigation, des titres, et j'ai également
+        intégré un court texte de présentation. Jusqu'à présent, j'ai
+        principalement travaillé sur ce projet en mode bureau, ce qui signifie
+        qu'il est optimisé pour des écrans d'au moins 1200&nbsp;pixels de large.
+        Dans l'avenir, j'aimerai le rendre responsive.
       </ProjectsItem>
 
       <ProjectsItem>
@@ -69,15 +79,17 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
             >Reproduction de la navbar et slider du site Suzuki</a
           ></template
         >
-        Voici le tout premier projet que j'ai fait avec <b>Vue.js</b>, en juin
-        2023, lors de mon stage. Mon maître de stage m'avait demandé de recopier
-        le menu et le slider du
+        Ce fut mon tout premier projet en <b>Vue.js</b>, réalisé en juin 2023,
+        lors de mon stage. Mon maître de stage m'a donné pour mission de
+        reproduire le menu de navigation et le slider du
         <a href="https://concession.suzuki.fr/la-rochelle"
-          >site suzuki concession</a
-        >. <br />
-        Rien n'est cliquable, c'est normal... et ce n'est pas non plus optimisé
-        pour le responsive, il est optimisé pour des écrans d'une taille
-        minimale de 960 px.
+          >site Suzuki concession</a
+        >.
+        <br />
+        Il est important de noter que rien n'est cliquable dans ce projet, car
+        il s'agit d'une reproduction visuelle. De plus, il n'est pas encore
+        pleinement responsive ; il est actuellement adapté aux écrans d'une
+        largeur minimale de 960&nbsp;px.
       </ProjectsItem>
     </div>
   </div>

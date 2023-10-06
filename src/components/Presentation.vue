@@ -27,18 +27,17 @@ const cvURL =
               <br /><br />Depuis début 2023, j'entame ma reconversion dans
               l'univers du développement. J'ai suivi la
               <b>formation "Développeur .Net fullstack"</b> chez M2i pendant 4
-              mois (à temps complet) suivie d'un mois de stage. Je suis encore
-              débutante, mais j'ai à cœur de progresser et
+              mois (à temps complet) suivie d'un mois de stage. Bien qu'encore
+              débutante, j'ai à cœur de progresser et
               <b>j'apprends tous les jours un peu plus</b>. Mon portfolio est
               justement là pour vous montrer mes réalisations dans ce nouveau
               domaine, où le graphisme rencontre le code. <br /><br />J'ai
               décidé de continuer mon apprentissage avec la <b>3W Academy</b>,
               au rythme de 3 semaines en entreprise et une semaine en cours,
               <b
-                >je recherche donc une entreprise pour un contrat en alternance
-                en tant qu'intégrateur/developpeur front-end</b
-              >
-              donc n'hésitez pas à me
+                >et je recherche donc une entreprise pour un contrat en
+                alternance en tant qu'intégrateur et/ou developpeur front-end</b
+              >. N'hésitez pas à me
               <span
                 ><a href="#contact" class="link-text"><b>contacter</b></a></span
               >
