@@ -316,7 +316,7 @@ button::after {
 
 button {
   padding: 0.7rem 1.1rem;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   cursor: pointer;
   font-size: 1.1rem;
   border: 2px #219db2 solid;
@@ -328,11 +328,12 @@ button {
   font-family: "Montserrat", sans-serif;
   position: relative;
   color: #219db2;
+  overflow: hidden;
 }
 button::before,
 button::after {
   border: #fff 2px solid;
-  border-radius: 4rem;
+  border-radius: 2rem;
   background-color: #219db2;
   content: "";
   position: absolute;
@@ -341,7 +342,6 @@ button::after {
 }
 button:hover {
   color: #fff;
-  border-radius: 4rem;
 }
 button:hover a {
   color: #fff;
