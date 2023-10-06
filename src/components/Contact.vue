@@ -3,13 +3,20 @@ import { Clipboard } from "v-clipboard";
 
 export default {
   name: "App",
-  data() {},
+  data() {
+    return {
+      isCopied: true,
+    };
+  },
   methods: {
-    success() {
-      alert("success");
-    },
-    copy() {
-      Clipboard.copy("TEST");
+    // success() {
+    //   alert("success");
+    // },
+    // copy() {
+    //   Clipboard.copy("TEST");
+    // },
+    ToggleCopied() {
+      this.isCopied = !this.isCopied;
     },
   },
 };
@@ -77,10 +84,13 @@ export default {
         <button
           class="btn"
           v-clipboard="'f.chambinaud@gmail.com'"
-          v-clipboard:success="success"
+          @click="ToggleCopied"
         >
           f.chambinaud@gmail.com
         </button>
+        <p :class="{ copy: !isCopied, copied: isCopied }">
+          Vous avez bien copié mon adresse mail !
+        </p>
       </div>
     </div>
   </div>
@@ -221,7 +231,8 @@ button::after {
 
 button {
   padding: 0.7rem 1.1rem;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
+  border-radius: 2rem;
   cursor: pointer;
   font-size: 1.1rem;
   border: 2px #219db2 solid;
@@ -233,11 +244,12 @@ button {
   font-family: "Montserrat", sans-serif;
   position: relative;
   color: #219db2;
+  overflow: hidden;
 }
 button::before,
 button::after {
   border: #fff 2px solid;
-  border-radius: 4rem;
+  border-radius: 2rem;
   background-color: #219db2;
   content: "";
   position: absolute;
@@ -245,7 +257,6 @@ button::after {
 }
 button:hover {
   color: #fff;
-  border-radius: 4rem;
 }
 button:hover a {
   color: #fff;
@@ -269,22 +280,23 @@ p {
   font-size: 0.9rem;
   text-align: justify;
 }
-.button.is-success {
-  background-color: #48c78e;
-  border-color: transparent;
-  color: #fff;
+.copy {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #219db2;
+}
+.copied {
+  /* display: none; */
+  /* height: 0.8rem; */
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(33, 157, 178, 0);
 }
 #contact:target {
   padding-top: 6rem;
   margin-top: -6rem;
 }
 @media (min-width: 471px) {
-  /* .totalite {
-    padding-top: 8.5rem;
-  } */
-  /* .login-card-container {
-    padding: 3rem;
-  } */
   #contact:target {
     padding-top: 8.5rem;
     margin-top: -8.5rem;
@@ -299,9 +311,6 @@ p {
   }
 }
 @media (min-width: 1135px) {
-  /* .totalite {
-    padding-top: 7rem;
-  } */
   #contact:target {
     padding-top: 7rem;
     margin-top: -7rem;

@@ -24,23 +24,28 @@ const cvURL =
               dans diverses entreprises où j'ai perfectionné mon sens du détail,
               ma capacité à faire des délivrables à la fois communiquants,
               harmonieux et respectueux des différentes chartes graphiques.
-              <br /><br />Depuis début 2023, j'entame ma reconversion dans
-              l'univers du développement. J'ai suivi la
-              <b>formation "Développeur .Net fullstack"</b> chez M2i pendant 4
+              <br /><br />Début 2023, j'ai entamé ma reconversion dans l'univers
+              du développement. J'ai suivi la
+              <b>formation "Développeur .NET fullstack"</b> chez M2i pendant 4
               mois (à temps complet) suivie d'un mois de stage. Bien qu'encore
               débutante, j'ai à cœur de progresser et
               <b>j'apprends tous les jours un peu plus</b>. Mon portfolio est
-              justement là pour vous montrer mes réalisations dans ce nouveau
-              domaine, où le graphisme rencontre le code. <br /><br />J'ai
-              décidé de continuer mon apprentissage avec la <b>3W Academy</b>,
-              au rythme de 3 semaines en entreprise et une semaine en cours,
+              justement là pour vous montrer les différents
+              <b
+                >projets que j'ai réalisés en juin 2023, lorsque j'étais en
+                stage</b
+              >
+              dans ce nouveau domaine, où le graphisme rencontre le code.
+              <br /><br />J'ai décidé de continuer mon apprentissage avec la
+              <b>3W Academy</b>, au rythme de 3 semaines en entreprise et une
+              semaine en cours,
               <b
                 >et je recherche donc une entreprise pour un contrat en
-                alternance en tant qu'intégrateur et/ou developpeur front-end</b
-              >. N'hésitez pas à me
-              <span
-                ><a href="#contact" class="link-text"><b>contacter</b></a></span
+                alternance en tant qu'intégratrice et/ou developpeuse
+                front-end</b
               >
+              sur la métropole Lilloise. N'hésitez pas à me
+              <a href="#contact" class="link-text"><b>contacter</b></a>
               si vous pensez que mon profil peut vous intéresser.
             </p>
           </div>
@@ -380,7 +385,9 @@ span {
   background-color: #219db2;
 }
 .link-text {
-  color: #fff;
+  /* color: #fff; */
+  font-weight: 600;
+  font-size: 1rem;
 }
 /* a:hover {
   color: white;

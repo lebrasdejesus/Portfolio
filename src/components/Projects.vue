@@ -27,8 +27,9 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
         dehors de ce portfolio). J'ai commencé ce projet à la fin de mon stage,
         en juin 2023, et l'ai donc continué chez moi. L'objectif principal était
         de reproduire un site vitrine déjà existant. Mon choix s'est porté sur
-        <a href="https://lakson.fr/">le site du restaurant Lakson</a>, car il
-        comprenait
+        <a href="https://lakson.fr/" target="_blank"
+          >le site du restaurant Lakson</a
+        >, car il comprenait
         <b
           >une barre de navigation, un pied de page, plusieurs pages, des
           boutons, et une galerie de photos</b
@@ -51,11 +52,11 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
             >Divers exercices en HTML, CSS et JavaScript</a
           ></template
         >
-        Durant mon stage (juin 2023), j'ai décidé de me lancer dans la création
-        de projets en <b>Vue.js</b>, afin de renforcer mes compétences en
-        <b>JavaScript</b>. J'ai commencé par revisiter des exercices que j'avais
-        fait lors de ma formation chez M2i. Par la suite, j'ai enrichi ce projet
-        en y ajoutant divers éléments, tels qu'un
+        J'ai décidé de me lancer dans la création de projets en <b>Vue.js</b>,
+        afin de renforcer mes compétences en <b>JavaScript</b>. J'ai commencé
+        par revisiter des exercices que j'avais fait lors de ma formation chez
+        M2i. Par la suite, j'ai enrichi ce projet en y ajoutant divers éléments,
+        tels qu'un
         <b
           >sélecteur de couleurs, la possibilité pour l'utilisateur d'ajouter
           des images, et enfin, j'ai reproduit une galerie de photos trouvée sur
@@ -63,7 +64,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
         >. <br />En parallèle de ces ajouts, j'ai élaboré une présentation
         comprenant une barre de navigation, des titres, et j'ai également
         intégré un court texte de présentation. Jusqu'à présent, j'ai
-        principalement travaillé sur ce projet en mode bureau, ce qui signifie
+        principalement travaillé sur ce projet en mode desk, ce qui signifie
         qu'il est optimisé pour des écrans d'au moins 1200&nbsp;pixels de large.
         Dans l'avenir, j'aimerai le rendre responsive.
       </ProjectsItem>
@@ -79,10 +80,10 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
             >Reproduction de la navbar et slider du site Suzuki</a
           ></template
         >
-        Ce fut mon tout premier projet en <b>Vue.js</b>, réalisé en juin 2023,
-        lors de mon stage. Mon maître de stage m'a donné pour mission de
-        reproduire le menu de navigation et le slider du
-        <a href="https://concession.suzuki.fr/la-rochelle"
+        Ce fut mon tout premier projet en <b>Vue.js</b>. Mon maître de stage
+        m'avait donné pour mission de reproduire le menu de navigation et le
+        slider du
+        <a href="https://concession.suzuki.fr/la-rochelle" target="_blank"
           >site Suzuki concession</a
         >.
         <br />
