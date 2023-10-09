@@ -65,7 +65,8 @@ export default {
   z-index: 1;
 }
 .deep-blue {
-  background-color: #219db2;
+  /* background-color: #219db2; */
+  background-color: #116071;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -86,17 +87,17 @@ nav {
 }
 nav a {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  padding: 0 0.7rem;
+  padding: 0.5rem 0.7rem;
   border-left: 0px solid rgba(33, 157, 178, 0.3);
   color: white;
   transition: 0.4s;
 }
 nav a p:hover {
   transform: scale(1.03);
-  text-decoration: underline 2px;
-  text-underline-offset: 0.3rem;
+  /* text-decoration: underline 2px; */
+  /* text-underline-offset: 0.3rem; */
 }
 h1:hover {
   transform: scale(1.03);
@@ -106,21 +107,24 @@ nav a:first-of-type {
 }
 h1 {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: white;
 }
 .picto a {
   padding: 0 0.5rem;
 }
 .picto img {
-  height: 1.5rem;
-  margin-top: 0.3rem;
+  height: 1.8rem;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 .picto img:hover {
   transform: scale(1.08);
 }
 .blue {
-  background-color: #5bb6c6;
+  /* background-color: #5bb6c6; */
+  background-color: #397a89;
   box-shadow: 0px 5px 10px rgba(169, 169, 169, 0.5);
   /* overflow: hidden; */
 }
@@ -172,7 +176,8 @@ h1 {
   }
   .blue,
   .responsive {
-    background-color: #5bb6c6;
+    /* background-color: #5bb6c6; */
+    background-color: #397a89;
     box-shadow: 0px 0px 0px rgba(169, 169, 169, 0.5);
     display: flex;
     flex-direction: row;
@@ -202,7 +207,7 @@ h1 {
   }
   h1 {
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: left;
     /* padding: 0.5rem; */
   }

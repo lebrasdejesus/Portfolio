@@ -13,7 +13,7 @@ const cvURL =
         <template #heading>PRÉSENTATION</template>
         <div class="photo-et-texte">
           <div class="photo">
-            <img src="../assets/profil-carre.jpg" alt="photo profil" />
+            <img src="../assets/profil-carre-222.jpg" alt="photo profil" />
           </div>
           <div>
             <p>
@@ -246,7 +246,9 @@ const cvURL =
 .super-container-hardSkills {
   display: flex;
   flex-direction: column;
-  background-color: rgba(24, 151, 168, 0.15);
+  /* background-color: rgba(24, 151, 168, 0.15); */
+  /* background-color: rgba(13, 122, 136, 0.15); */
+  background-color: rgba(57, 122, 137, 0.15);
   margin-bottom: 2rem;
   padding: 2rem 0;
 }
@@ -305,6 +307,7 @@ const cvURL =
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 } */
+
 /* test bouton debut */
 button,
 button::after {
@@ -319,7 +322,8 @@ button {
   border-radius: 2rem;
   cursor: pointer;
   font-size: 1.1rem;
-  border: 2px #219db2 solid;
+  /* border: 2px #219db2 solid; */
+  border: 2px #397a89 solid;
   /* box-shadow: inset 0px 0px 10px 3px #26a8bf; */
   /* background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%); */
   background: none;
@@ -327,22 +331,24 @@ button {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  color: #219db2;
+  /* color: #219db2; */
+  color: #397a89;
   overflow: hidden;
 }
 button::before,
 button::after {
   border: #fff 2px solid;
   border-radius: 2rem;
-  background-color: #219db2;
+  /* background-color: #219db2; */
+  background-color: #397a89;
   content: "";
   position: absolute;
   z-index: -1;
   /* border: 4px #ffffff solid; */
 }
-button:hover {
+/* button:hover {
   color: #fff;
-}
+} */
 button:hover a {
   color: #fff;
 }
@@ -381,17 +387,11 @@ p {
   font-size: 0.9rem;
   text-align: justify;
 }
-span {
-  background-color: #219db2;
-}
 .link-text {
   /* color: #fff; */
   font-weight: 600;
   font-size: 1rem;
 }
-/* a:hover {
-  color: white;
-} */
 /* #head:target {
   padding-top: 14.4rem;
   margin-top: -14.4rem;
@@ -414,7 +414,7 @@ span {
 .photo img {
   width: 7rem;
   border-radius: 10rem;
-  border: 2px #219db2 solid;
+  border: 2px #397a89 solid;
 }
 .height100 {
   height: 100%;
@@ -432,6 +432,9 @@ li {
   padding: 0.2rem;
   /* color: white; */
 }
+#head {
+  width: 100%;
+}
 @media (min-width: 471px) {
   .espace-nav {
     padding-top: 5.5rem;
@@ -446,12 +449,12 @@ li {
     padding-top: 5.5rem;
     margin-top: -5.5rem;
   }
-
   .photo-et-texte {
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: start;
+    /* width: 40rem; */
   }
   .photo {
     width: 8.5rem;
@@ -460,7 +463,6 @@ li {
   }
   .photo img {
     width: 8.5rem;
-    border: 2px #219db2 solid;
   }
   .super-container-hardSkills {
     display: flex;
@@ -508,16 +510,12 @@ li {
     align-items: start;
   }
   .photo {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     margin-right: 3rem;
   }
   .photo img {
-    width: 10rem;
-    border: 2px #219db2 solid;
-  }
-  p {
-    font-size: 1rem;
+    width: 12rem;
   }
   .container-hardSkills-titre {
     display: flex;
@@ -529,6 +527,9 @@ li {
   .container-hardSkills {
     display: flex;
     flex-direction: column;
+  }
+  p {
+    font-size: 1rem;
   }
 }
 </style>

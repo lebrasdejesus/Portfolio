@@ -12,7 +12,8 @@
 
 a {
   text-decoration: none;
-  color: #219db2;
+  /* color: #219db2; */
+  color: #397A89;
   /* transition: 0.4s; */
   cursor: pointer;
 }

@@ -72,8 +72,6 @@ export default {
           <textarea id="message" name="message" required></textarea>
         </div>
         <button type="submit" class="btn">Envoyer</button>
-
-        <!-- <button class="btn-copy">copier</button> -->
       </form>
       <div class="login-card-form">
         <p>
@@ -101,7 +99,8 @@ export default {
   padding-top: 4rem;
 } */
 .titre {
-  background-color: #219db2;
+  /* background-color: #219db2; */
+  background-color: #397a89;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +127,9 @@ h3 {
   position: relative;
   padding: 7rem 1.5rem;
   /* background: linear-gradient(to top, white, #5bb6c6); */
-  background-color: rgba(24, 151, 168, 0.15);
+  /* background-color: rgba(24, 151, 168, 0.15); */
+  background-color: rgba(57, 122, 137, 0.15);
+
   margin-top: 3rem;
 }
 .login-card-form {
@@ -235,7 +236,8 @@ button {
   border-radius: 2rem;
   cursor: pointer;
   font-size: 1.1rem;
-  border: 2px #219db2 solid;
+  /* border: 2px #219db2 solid; */
+  border: 2px #397a89 solid;
   /* box-shadow: inset 0px 0px 10px 3px #26a8bf; */
   /* background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%); */
   background: none;
@@ -243,14 +245,16 @@ button {
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  color: #219db2;
+  /* color: #219db2; */
+  color: #397a89;
   overflow: hidden;
 }
 button::before,
 button::after {
   border: #fff 2px solid;
   border-radius: 2rem;
-  background-color: #219db2;
+  /* background-color: #219db2; */
+  background-color: #397a89;
   content: "";
   position: absolute;
   z-index: -1;
@@ -307,7 +311,7 @@ p {
     margin: 0 6rem;
   }
   .login-card-form {
-    max-width: 40rem;
+    max-width: 50rem;
   }
 }
 @media (min-width: 1135px) {

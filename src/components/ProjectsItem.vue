@@ -22,7 +22,7 @@
   /* grid-gap: 0.2rem; */
   /* border: 1px rgba(208, 208, 208, 0.8) solid; */
   /* margin-top: 1rem; */
-  padding: 1rem 3rem;
+  padding: 1.5rem 3rem;
 }
 .img {
   width: 100%;
@@ -33,6 +33,7 @@
 .details {
   flex: 1;
   /* margin: 0 1rem 0 1rem; */
+  margin-top: 0.8rem;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -50,7 +51,10 @@ h3 {
     /* grid-template-columns: 1fr 2fr; */
     grid-gap: 1.2rem;
     /* border: 1px rgba(208, 208, 208, 0.3) solid; */
-    padding: 1rem 6rem;
+    padding: 1.5rem 6rem;
+  }
+  .details {
+    margin-top: 0;
   }
 }
 @media (min-width: 1135px) {
@@ -60,7 +64,7 @@ h3 {
     /* grid-gap: 0.2rem; */
     /* border: 1px rgba(208, 208, 208, 0.8) solid; */
     /* margin-top: 1rem; */
-    padding: 1rem 3rem;
+    padding: 1.5rem 3rem;
   }
 }
 </style>

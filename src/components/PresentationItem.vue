@@ -19,19 +19,25 @@
   display: flex;
   position: relative;
   padding: 3rem 3rem 0rem 3rem;
+  /* width: 100%; */
 }
 .details {
-  /* flex: 1; */
+  /* flex: 1;
+  display: flex;
+  flex-direction: column; */
+  width: 100%;
 }
 .titre {
-  background-color: #219db2;
+  /* background-color: #219db2; */
+  background-color: #397a89;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 0.7rem;
   position: relative;
   /* margin: 0.6rem 3rem 2rem 3rem; */
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  /* width: 100%; */
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -42,17 +48,49 @@ h3 {
   position: absolute;
 }
 /* .texteprez {
-  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } */
 @media (min-width: 768px) {
   .item {
     padding: 3rem 6rem 0rem 6rem;
   }
+  /* .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  /* .texteprez {
+    margin: 0 3rem;
+  } */
 }
-@media (min-width: 1024px) {
+@media (min-width: 1135px) {
   .item {
     /* margin-top: 0; */
     /* padding: 0.4rem 0 1rem calc(var(--section-gap) / 2); */
+    /* display: flex;
+    justify-content: center; */
   }
+  /* .texteprez {
+    margin: 0 8rem;
+  } */
+  .texteprez {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50rem;
+    margin: auto;
+  }
+  .details {
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+}
+@media (min-width: 1600px) {
+  /* .texteprez {
+    margin: 0 14rem;
+  } */
 }
 </style>
