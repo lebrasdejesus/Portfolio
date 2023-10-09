@@ -310,8 +310,10 @@ p {
 }
 @media (min-width: 471px) {
   #contact:target {
-    padding-top: 8.5rem;
-    margin-top: -8.5rem;
+    /* padding-top: 8.5rem;
+    margin-top: -8.5rem;     */
+    padding-top: 6.8rem;
+    margin-top: -6.8rem;
   }
 }
 @media (min-width: 768px) {

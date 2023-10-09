@@ -70,6 +70,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 0.8rem 1.5rem;
   text-align: left;
 }
@@ -126,7 +127,6 @@ h1 {
   /* background-color: #5bb6c6; */
   background-color: #397a89;
   box-shadow: 0px 5px 10px rgba(169, 169, 169, 0.5);
-  /* overflow: hidden; */
 }
 
 /* .blue a:not(:first-child) {
@@ -151,7 +151,6 @@ h1 {
 .responsive a {
   /* float: none; */
   display: none;
-  text-align: left;
 }
 
 @media (min-width: 471px) {
@@ -165,6 +164,7 @@ h1 {
     flex-direction: row;
   }
   nav a {
+    padding: 0 0.7rem;
     border-left: 1px solid rgba(255, 255, 255, 0.3);
   }
   .picto img {
@@ -185,10 +185,10 @@ h1 {
     align-items: center;
     padding: 0.5rem;
   }
-
   .responsive a {
     display: block;
-    text-align: left;
+    /* text-align: left; */
+    font-size: 1rem;
   }
   .picto {
     display: flex;
@@ -217,12 +217,15 @@ h1 {
     flex-direction: row;
     justify-content: right;
     align-items: center;
-    padding: 1rem;
   }
   .deep-blue {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .responsive a {
+    display: block;
+    font-size: 1.1rem;
   }
 }
 </style>
