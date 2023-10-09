@@ -143,7 +143,7 @@ h3 {
 }
 .login-card-form-2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   gap: 1.5rem;
 }
@@ -287,14 +287,22 @@ p {
 .copy {
   font-size: 0.8rem;
   font-weight: 600;
-  color: #219db2;
+  /* color: #397a89; */
+  color: rgba(57, 122, 137, 0);
+  animation: changerCouleur 2s ease-in-out;
 }
 .copied {
-  /* display: none; */
-  /* height: 0.8rem; */
   font-size: 0.8rem;
   font-weight: 600;
-  color: rgba(33, 157, 178, 0);
+  color: rgba(57, 122, 137, 0);
+}
+@keyframes changerCouleur {
+  0% {
+    color: rgba(57, 122, 137, 1);
+  }
+  100% {
+    color: rgba(57, 122, 137, 0);
+  }
 }
 #contact:target {
   padding-top: 6rem;
@@ -312,6 +320,10 @@ p {
   }
   .login-card-form {
     max-width: 50rem;
+  }
+  .login-card-form-2 {
+    display: flex;
+    flex-direction: row;
   }
 }
 @media (min-width: 1135px) {
