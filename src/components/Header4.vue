@@ -217,6 +217,7 @@ h1 {
     flex-direction: row;
     justify-content: right;
     align-items: center;
+    padding: 0.9rem;
   }
   .deep-blue {
     display: flex;
