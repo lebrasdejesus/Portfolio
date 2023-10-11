@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-  <div class="totalite" id="contact">
+  <div id="contact">
     <div class="titre">
       <h3>CONTACT</h3>
     </div>
@@ -89,15 +89,22 @@ export default {
         <p :class="{ copy: !isCopied, copied: isCopied }">
           Vous avez bien copié mon adresse mail !
         </p>
+        <!-- <div class="englobeur-btn-haut"> -->
+
+        <a href="#head"
+          ><button class="btn-carre">
+            <span class="material-symbols-rounded">
+              keyboard_double_arrow_up
+            </span>
+          </button></a
+        >
+        <!-- </div> -->
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-/* .totalite {
-  padding-top: 4rem;
-} */
 .titre {
   /* background-color: #219db2; */
   background-color: #397a89;
@@ -113,7 +120,6 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
-  /* margin-bottom: 0.4rem; */
   background-color: rgb(255, 255, 255);
   padding: 0rem 0.7rem;
   position: absolute;
@@ -126,10 +132,8 @@ h3 {
   align-items: center;
   position: relative;
   padding: 7rem 1.5rem;
-  /* background: linear-gradient(to top, white, #5bb6c6); */
   /* background-color: rgba(24, 151, 168, 0.15); */
   background-color: rgba(57, 122, 137, 0.15);
-
   margin-top: 3rem;
 }
 .login-card-form {
@@ -184,7 +188,6 @@ input[type="email"] {
 input:focus {
   background: white;
 }
-
 #message {
   border-radius: 20px;
   width: 100%;
@@ -202,26 +205,6 @@ textarea {
   font-family: "Open sans";
   font-size: 0.9rem;
 }
-/* button {
-  padding: 0.7rem 1.1rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  font-size: 1.1rem;
-  border: none;
-  box-shadow: inset 0px 0px 10px 3px #26a8bf;
-  background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%);
-  background-color: #5bb6c6;
-  text-shadow: 0px 1px 1px #337985;
-  color: white;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-}
-button:hover {
-  background: linear-gradient(to bottom, #5bb6c6 25%, #1897a8 100%);
-  background-color: #5bb6c6;
-  position: relative;
-  top: -1px;
-} */
 button,
 button::after {
   -webkit-transition: all 0.3s;
@@ -229,7 +212,6 @@ button::after {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-
 button {
   padding: 0.7rem 1.1rem;
   /* border-radius: 0.5rem; */
@@ -265,18 +247,21 @@ button:hover {
 button:hover a {
   color: #fff;
 }
+.btn-carre::before,
 .btn::before {
   height: 100%;
   left: 0;
   top: 0;
   width: 0;
 }
+.btn-carre::after,
 .btn::after {
   height: 100%;
   left: 0;
   top: 0;
   width: 0;
 }
+.btn-carre:hover::after,
 .btn:hover::after {
   width: 100%;
 }
@@ -296,6 +281,19 @@ p {
   font-weight: 600;
   color: rgba(57, 122, 137, 0);
 }
+/* .englobeur-btn-haut {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 100%;
+} */
+.btn-carre {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 @keyframes changerCouleur {
   0% {
     color: rgba(57, 122, 137, 1);
@@ -310,8 +308,6 @@ p {
 }
 @media (min-width: 471px) {
   #contact:target {
-    /* padding-top: 8.5rem;
-    margin-top: -8.5rem;     */
     padding-top: 6.8rem;
     margin-top: -6.8rem;
   }

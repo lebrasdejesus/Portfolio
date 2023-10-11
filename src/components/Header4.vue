@@ -128,31 +128,10 @@ h1 {
   background-color: #397a89;
   box-shadow: 0px 5px 10px rgba(169, 169, 169, 0.5);
 }
-
-/* .blue a:not(:first-child) {
-  display: none;
-} */
-
-/* .blue a.icon {
-  float: right;
-  display: block;
-} */
-
-/* .responsive {
-  position: relative;
-}
-
-.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
-
 .responsive a {
   /* float: none; */
   display: none;
 }
-
 @media (min-width: 471px) {
   .container1 {
     box-shadow: 0px 5px 10px rgba(169, 169, 169, 0.5);
@@ -187,7 +166,6 @@ h1 {
   }
   .responsive a {
     display: block;
-    /* text-align: left; */
     font-size: 1rem;
   }
   .picto {

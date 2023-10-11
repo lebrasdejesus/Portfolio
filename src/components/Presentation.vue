@@ -32,8 +32,8 @@ const cvURL =
               <b>j'apprends tous les jours un peu plus</b>. Mon portfolio est
               justement là pour vous montrer les différents
               <b
-                >projets que j'ai réalisés en juin 2023, lorsque j'étais en
-                stage</b
+                >projets (orientés intégration/front) que j'ai réalisés en juin
+                2023, lorsque j'étais en stage</b
               >
               dans ce nouveau domaine, où le graphisme rencontre le code.
               <br /><br />J'ai décidé de continuer mon apprentissage avec la
@@ -246,7 +246,6 @@ const cvURL =
 .super-container-hardSkills {
   display: flex;
   flex-direction: column;
-  /* background-color: rgba(24, 151, 168, 0.15); */
   /* background-color: rgba(13, 122, 136, 0.15); */
   background-color: rgba(57, 122, 137, 0.15);
   margin-bottom: 2rem;
@@ -388,14 +387,10 @@ p {
   text-align: justify;
 }
 .link-text {
-  /* color: #fff; */
   font-weight: 600;
   font-size: 1rem;
 }
-/* #head:target {
-  padding-top: 14.4rem;
-  margin-top: -14.4rem;
-} */
+
 #head:target {
   padding-top: 7rem;
   margin-top: -7rem;
@@ -430,10 +425,19 @@ h3 {
 li {
   font-weight: 600;
   padding: 0.2rem;
-  /* color: white; */
 }
 #head {
   width: 100%;
+}
+.link-text {
+  box-shadow: inset 0 0 0 0 #116071;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.link-text:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #116071;
 }
 @media (min-width: 471px) {
   .espace-nav {
@@ -502,7 +506,6 @@ li {
     padding-top: 4rem;
     margin-top: -4rem;
   }
-
   .photo-et-texte {
     display: flex;
     flex-direction: row;
