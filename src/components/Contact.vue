@@ -50,9 +50,7 @@ export default {
           >
         </li>
       </ul>
-      <p :class="{ copy: !isCopied, copied: isCopied }">
-        Vous avez bien copié mon adresse mail !
-      </p>
+      <p :class="{ copy: !isCopied, copied: isCopied }">C'est copié !</p>
       <form
         action="https://formcarry.com/s/DPW3iJbBnC"
         method="POST"
@@ -120,6 +118,9 @@ export default {
         </p> -->
         <!-- <div class="englobeur-btn-haut"> -->
 
+        <!-- </div> -->
+      </div>
+      <div class="btn-return">
         <a href="#head"
           ><button class="btn-carre">
             <span class="material-symbols-rounded">
@@ -127,7 +128,6 @@ export default {
             </span>
           </button></a
         >
-        <!-- </div> -->
       </div>
     </div>
   </div>
@@ -154,13 +154,14 @@ h3 {
   position: absolute;
 }
 .login-card-container {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 7rem 1.5rem;
+  /* padding: 7rem 1.5rem; */
+  padding: 5rem 1.5rem;
   /* background-color: rgba(24, 151, 168, 0.15); */
   background-color: rgba(57, 122, 137, 0.15);
   margin-top: 3rem;
@@ -308,15 +309,14 @@ p {
   width: 100%;
   margin-top: 3rem;
 } */
-.alt-email {
+.btn-return {
   display: flex;
-  /* flex-direction: column; */
   justify-content: right;
-  align-items: center;
-  gap: 1.5rem;
+  /* align-items: center; */
   width: 100%;
-  /* margin-top: 3rem; */
-  margin-top: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
 }
 .copy {
   font-size: 0.8rem;
