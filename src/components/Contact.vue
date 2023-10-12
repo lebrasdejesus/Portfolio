@@ -28,6 +28,31 @@ export default {
       <h3>CONTACT</h3>
     </div>
     <div class="login-card-container">
+      <p>Pour m'écrire vous pouvez :</p>
+      <ul>
+        <li>utiliser ce formulaire de contact</li>
+        <li>
+          me contacter via
+          <a
+            href="https://www.linkedin.com/in/fr%C3%A9d%C3%A9rique-c-16195121b/"
+            target="_blank"
+            class="hover-list"
+            ><b>Linkedin</b></a
+          >
+        </li>
+        <li>
+          copier mon adresse mail
+          <span
+            v-clipboard="'f.chambinaud@gmail.com'"
+            @click="ToggleCopied"
+            class="hover-list"
+            ><b>ici</b></span
+          >
+        </li>
+      </ul>
+      <p :class="{ copy: !isCopied, copied: isCopied }">
+        Vous avez bien copié mon adresse mail !
+      </p>
       <form
         action="https://formcarry.com/s/DPW3iJbBnC"
         method="POST"
@@ -73,11 +98,15 @@ export default {
         </div>
         <button type="submit" class="btn">Envoyer</button>
       </form>
-      <div class="login-card-form">
-        <p>
+      <div class="alt-email">
+        <!-- <p>
           Si comme moi, vous n'aimez pas les formulaires de contact, vous pouvez
           simplement
           <b>copier mon adresse en cliquant sur le bouton ci-dessous&nbsp;:</b>
+        </p> -->
+        <!-- <p>
+          Sinon, vous pouvez
+          <b>copier mon adresse en cliquant sur le bouton</b> :
         </p>
         <button
           class="btn"
@@ -88,7 +117,7 @@ export default {
         </button>
         <p :class="{ copy: !isCopied, copied: isCopied }">
           Vous avez bien copié mon adresse mail !
-        </p>
+        </p> -->
         <!-- <div class="englobeur-btn-haut"> -->
 
         <a href="#head"
@@ -143,7 +172,7 @@ h3 {
   align-items: center;
   gap: 1.5rem;
   width: 100%;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 .login-card-form-2 {
   display: flex;
@@ -223,7 +252,6 @@ button {
   /* box-shadow: inset 0px 0px 10px 3px #26a8bf; */
   /* background: linear-gradient(to bottom, #5bb6c6 5%, #1897a8 100%); */
   background: none;
-  /* text-shadow: 0px 1px 1px #337985; */
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
   position: relative;
@@ -266,8 +294,29 @@ button:hover a {
   width: 100%;
 }
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 700;
   text-align: justify;
+  margin-bottom: 0.7rem;
+}
+/* .alt-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 3rem;
+} */
+.alt-email {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: right;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  /* margin-top: 3rem; */
+  margin-top: 1rem;
 }
 .copy {
   font-size: 0.8rem;
@@ -275,6 +324,14 @@ p {
   /* color: #397a89; */
   color: rgba(57, 122, 137, 0);
   animation: changerCouleur 2s ease-in-out;
+}
+@keyframes changerCouleur {
+  0% {
+    color: rgba(57, 122, 137, 1);
+  }
+  100% {
+    color: rgba(57, 122, 137, 0);
+  }
 }
 .copied {
   font-size: 0.8rem;
@@ -294,14 +351,21 @@ p {
   justify-content: center;
   align-items: flex-start;
 }
-@keyframes changerCouleur {
-  0% {
-    color: rgba(57, 122, 137, 1);
-  }
-  100% {
-    color: rgba(57, 122, 137, 0);
-  }
+.hover-list {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #397a89;
+  box-shadow: inset 0 0 0 0 #116071;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+.hover-list:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #116071;
+  cursor: pointer;
+}
+
 #contact:target {
   padding-top: 6rem;
   margin-top: -6rem;
@@ -316,6 +380,7 @@ p {
   .titre {
     margin: 0 6rem;
   }
+  .alt-email,
   .login-card-form {
     max-width: 50rem;
   }

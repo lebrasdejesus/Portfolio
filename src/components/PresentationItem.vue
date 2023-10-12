@@ -69,7 +69,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 50rem;
+    max-width: 47rem;
     margin: auto;
   }
 }

@@ -48,6 +48,11 @@ const cvURL =
               <a href="#contact" class="link-text"><b>contacter</b></a>
               si vous pensez que mon profil peut vous intéresser.
             </p>
+            <!-- <button class="btn">
+              <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
+                >Plus de détails sur mon cv</a
+              >
+            </button> -->
           </div>
         </div>
       </PresentationItem>
@@ -386,10 +391,6 @@ p {
   font-size: 0.9rem;
   text-align: justify;
 }
-.link-text {
-  font-weight: 600;
-  font-size: 1rem;
-}
 
 #head:target {
   padding-top: 7rem;
@@ -425,11 +426,14 @@ h3 {
 li {
   font-weight: 600;
   padding: 0.2rem;
+  list-style-type: none;
 }
 #head {
   width: 100%;
 }
 .link-text {
+  font-weight: 600;
+  font-size: 1rem;
   box-shadow: inset 0 0 0 0 #116071;
   padding: 0 0.25rem;
   margin: 0 -0.25rem;
