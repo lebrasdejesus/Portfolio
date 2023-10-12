@@ -344,7 +344,7 @@ button::after {
   border: #fff 2px solid;
   border-radius: 2rem;
   /* background-color: #219db2; */
-  background-color: #397a89;
+  background-color: #116071;
   content: "";
   position: absolute;
   z-index: -1;
@@ -410,7 +410,7 @@ p {
 .photo img {
   width: 7rem;
   border-radius: 10rem;
-  border: 2px #397a89 solid;
+  border: 2px #116071 solid;
 }
 .height100 {
   height: 100%;
