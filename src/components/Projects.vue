@@ -154,11 +154,14 @@ p {
   padding: 0 0.25rem;
   margin: 0 -0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  /* position: relative; */
+  /* display: inline; */
 }
 .link-text:hover {
   color: #fff;
   box-shadow: inset 700px 0 0 0 #116071;
 }
+
 @media (min-width: 471px) {
   #reals:target {
     padding-top: 8rem;
