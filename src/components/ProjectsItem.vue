@@ -6,7 +6,7 @@
 
     <div class="details">
       <h3>
-        <slot name="texte"></slot>
+        <slot name="texte" class="link-text"></slot>
       </h3>
       <p>
         <slot></slot>
@@ -42,6 +42,18 @@ h3 {
   margin-bottom: 1rem;
   /* border: 1px black solid; */
 }
+/* .link-text {
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: inset 0 0 0 0 #116071;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.link-text:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #116071;
+} */
 
 @media (min-width: 768px) {
   .item {

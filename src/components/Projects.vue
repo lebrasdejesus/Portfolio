@@ -20,7 +20,8 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           ><a
             href="https://14h02m10s.github.io/ExerciceCopieSiteResto/#/"
             target="blank"
-            >Reproduction d'un site vitrine</a
+            class="link-text"
+            ><b>Reproduction d'un site vitrine</b></a
           ></template
         >
         <p>
@@ -29,7 +30,7 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           stage, en juin 2023, et l'ai donc continué chez moi. L'objectif
           principal était de reproduire un site vitrine déjà existant. Mon choix
           s'est porté sur
-          <a href="https://lakson.fr/" target="_blank"
+          <a href="https://lakson.fr/" target="_blank" class="link-text"
             ><b>le site du restaurant Lakson</b></a
           >, car il comprenait
           <b
@@ -51,8 +52,11 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           <ImgProjet2 />
         </template>
         <template #texte
-          ><a href="https://14h02m10s.github.io/TestVue-14h/" target="blank"
-            >Divers exercices en HTML, CSS et JavaScript</a
+          ><a
+            href="https://14h02m10s.github.io/TestVue-14h/"
+            target="blank"
+            class="link-text"
+            ><b>Divers exercices en HTML, CSS et JavaScript</b></a
           ></template
         >
         <p>
@@ -82,14 +86,18 @@ import ImgSuzuki from "./icons/ImgSuzuki.vue";
           ><a
             href="https://14h02m10s.github.io/ExerciceNavbarEtCarrouselSuzuki/"
             target="blank"
-            >Reproduction de la navbar et slider du site Suzuki</a
+            class="link-text"
+            ><b>Reproduction de la navbar et slider du site Suzuki</b></a
           ></template
         >
         <p>
           Ce fut mon tout premier projet en <b>Vue.js</b>. Mon maître de stage
           m'avait donné pour mission de reproduire le menu de navigation et le
           slider du
-          <a href="https://concession.suzuki.fr/la-rochelle" target="_blank"
+          <a
+            href="https://concession.suzuki.fr/la-rochelle"
+            target="_blank"
+            class="link-text"
             ><b>site Suzuki concession</b></a
           >.
           <br />
@@ -138,6 +146,18 @@ h3 {
 }
 p {
   font-size: 0.9rem;
+}
+.link-text {
+  font-weight: 500;
+  /* font-size: 1rem; */
+  box-shadow: inset 0 0 0 0 #116071;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.link-text:hover {
+  color: #fff;
+  box-shadow: inset 700px 0 0 0 #116071;
 }
 @media (min-width: 471px) {
   #reals:target {
