@@ -64,6 +64,7 @@ const cvURL =
             >Télécharger mon cv</a
           >
         </button> -->
+
         <button class="btn">
           <!-- <a href="/cvfchambinaud-public.pdf" target="_blank"
             >Ouvrir mon cv depuis public</a
@@ -71,8 +72,13 @@ const cvURL =
           <!-- <a href="../../public/cvfchambinaud-public.pdf " target="_blank"
             >Ouvrir mon cv depuis public</a
           > -->
-          <a :href="cvURL" download="fchambinaud.pdf" target="_blank"
-            >Plus de détails sur mon cv</a
+          <!-- <a
+            href="https://file.notion.so/f/f/3b039082-0e23-4e19-afe1-fa9e5d154c14/4ebe4a50-b97e-417d-966d-9d8e0257121d/CV-F-Chambinaud-Inte-Dev.pdf?id=13ac6315-f309-464d-95c1-350c2b554961&table=block&spaceId=3b039082-0e23-4e19-afe1-fa9e5d154c14&expirationTimestamp=1697479200000&signature=8s2k80MYIcLPK2l6WErmVMnb74ENBhVv-3u_EwnFzVw&downloadName=CV-F-Chambinaud-Inte-Dev.pdf"
+            target="_blank"
+            >Plus de détails sur mon cv++</a
+          > -->
+          <a :href="cvURL" target="_blank" download="fchambinaud.pdf"
+            >Plus de détails sur mon cvvvv</a
           >
         </button>
         <!-- <button class="btn">Bouton 2</button> -->
