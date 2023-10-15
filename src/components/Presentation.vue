@@ -78,7 +78,7 @@ const cvURL =
             >Plus de détails sur mon cv++</a
           > -->
           <a :href="cvURL" target="_blank" download="fchambinaud.pdf"
-            >Plus de détails sur mon cvvvv</a
+            >Plus de détails sur mon cv</a
           >
         </button>
         <!-- <button class="btn">Bouton 2</button> -->
