@@ -3,7 +3,7 @@ import PresentationItem from "./PresentationItem.vue";
 import PresentationItemSkills from "./PresentationItemSkills.vue";
 
 const cvURL =
-  "https://lebrasdejesus.github.io/Portfolio/cvfchambinaud-public.pdf";
+  "https://lebrasdejesus.github.io/Portfolio/CV_3W_Academy_21_09_23_compressed.pdf";
 </script>
 
 <template>
